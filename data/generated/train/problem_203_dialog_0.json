@@ -1,0 +1,108 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to maximize my profit by optimally stocking pianos and guitars within my space and budget constraints."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like a great plan! To help you better, could you please tell me how much profit you make from selling a piano and a guitar?"
+        },
+        {
+            "role": "client",
+            "message": "I make a profit of $300 from selling a piano and $200 from selling a guitar."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me how much space a piano and a guitar take up in your store?"
+        },
+        {
+            "role": "client",
+            "message": "A piano takes up 8 sq ft of space and a guitar takes up 3 sq ft of space in my store."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful to know. Could you also tell me how much total space you have available in your store for stocking these instruments?"
+        },
+        {
+            "role": "client",
+            "message": "I have 100 sq ft of space available in my store for stocking these instruments."
+        },
+        {
+            "role": "agent",
+            "message": "That's good to know. Now, could you please tell me how much budget you have for purchasing these instruments?"
+        },
+        {
+            "role": "client",
+            "message": "I have a budget of $8000 for purchasing these instruments."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Could you also tell me how much a piano and a guitar cost for you to purchase?"
+        },
+        {
+            "role": "client",
+            "message": "A piano costs me $500 to purchase and a guitar costs me $300."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful. Now, is there a minimum or maximum number of pianos and guitars you want to or have to sell?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, at least 30% of items in stock must be guitars. There's no maximum limit mentioned."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Now, is there a target number of total instruments you want to sell or a minimum number of total instruments you need to have in stock?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no target or minimum number of total instruments mentioned."
+        },
+        {
+            "role": "agent",
+            "message": "Great! So, to clarify, you want to maximize your profit by optimally stocking pianos and guitars within your space and budget constraints, and at least 30% of the items in stock must be guitars. Is there anything else you would like to consider or any other constraints you have?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other constraints or considerations."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, let me summarize the information:\n\n- You are selling two types of musical instruments: pianos and guitars.\n- The profit from selling a piano is $300 and from a guitar is $200.\n- A piano takes up 8 sq ft of space and a guitar takes up 3 sq ft in your store.\n- You have a total of 100 sq ft of space available in your store for stocking these instruments.\n- Your budget for purchasing these instruments is $8000.\n- A piano costs you $500 to purchase and a guitar costs you $300.\n- At least 30% of the items in stock must be guitars.\n\nDoes this correctly summarize your situation?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. Thank you for summarizing it so clearly."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.5794392523364486,
+        "Rouge-1: Recall": 0.6739130434782609,
+        "Rouge-1: F1": 0.6231155778894473,
+        "Rouge-2: Precision": 0.32075471698113206,
+        "Rouge-2: Recall": 0.37362637362637363,
+        "Rouge-2: F1": 0.3451776649746193,
+        "Rouge-L: Precision": 0.40186915887850466,
+        "Rouge-L: Recall": 0.4673913043478261,
+        "Rouge-L: F1": 0.4321608040201005,
+        "BERTscore: F1": 0.9072154760360718,
+        "BERTscore: Precision": 0.8923437595367432,
+        "BERTscore: Recall": 0.9225913286209106,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1045,
+    "temperature": 0,
+    "problem_statement": "An instrument store sells pianos and guitars. A piano takes 8 sq ft of space while a guitar takes 3 sq ft of space. The store has 100 sq ft of space available. A piano costs the store $500 and a guitar costs the store $300. The store has a budget of $8000. In addition, at least 30% of items in stock must be guitars. If the profit per piano sold is $300 and the profit per guitar sold is $200, how many of each should the store stock to maximize profit?",
+    "summary": "Alright, let me summarize the information:\n\n- You are selling two types of musical instruments: pianos and guitars.\n- The profit from selling a piano is $300 and from a guitar is $200.\n- A piano takes up 8 sq ft of space and a guitar takes up 3 sq ft in your store.\n- You have a total of 100 sq ft of space available in your store for stocking these instruments.\n- Your budget for purchasing these instruments is $8000.\n- A piano costs you $500 to purchase and a guitar costs you $300.\n- At least 30% of the items in stock must be guitars.\n\nDoes this correctly summarize your situation?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "-41153534"
+}

@@ -1,0 +1,132 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to figure out how many salmon lunches and bison burgers I should eat to meet my protein and carb goals while minimizing fat intake."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like a healthy plan! To help you out, I'll need some more information. Could you please tell me how much protein, carbs, and fat are in a salmon lunch and a bison burger?"
+        },
+        {
+            "role": "client",
+            "message": "Sure! A salmon lunch contains 15g protein, 20g carbs, and 8g fat. A bison burger has 30g protein, 20g carbs, and 13g fat."
+        },
+        {
+            "role": "agent",
+            "message": "Great, thanks for the information! Now, could you please tell me what your daily goals are for protein, carbs, and fat?"
+        },
+        {
+            "role": "client",
+            "message": "My daily goals are at least 160g of protein and 180g of carbs. I want to minimize my fat intake."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a maximum amount of fat you would like to consume in a day? Or is your goal simply to keep it as low as possible?"
+        },
+        {
+            "role": "client",
+            "message": "I want to keep my fat intake as low as possible. There's no specific maximum limit."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, is there a limit to how many meals you can eat in a day? Or perhaps a minimum number of meals you would like to have?"
+        },
+        {
+            "role": "client",
+            "message": "I don't have a limit on the number of meals, but I'd like to have at least three meals a day."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have a preference for either the salmon lunch or the bison burger? Or are you open to eating any combination of the two as long as it meets your nutritional goals?"
+        },
+        {
+            "role": "client",
+            "message": "I'm open to any combination, but due to cost, no more than 25% of the meals should be salmon lunches."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a maximum number of meals you would like to have in a day? Or is your goal simply to eat as many meals as necessary to meet your protein and carb goals while keeping fat intake as low as possible?"
+        },
+        {
+            "role": "client",
+            "message": "I'm flexible with the number of meals, but I'd like to keep it reasonable, say, no more than 6 meals a day."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have a preference for the distribution of meals throughout the day? For example, would you like to have a certain number of meals at breakfast, lunch, and dinner? Or are you flexible with when you have these meals?"
+        },
+        {
+            "role": "client",
+            "message": "I'm flexible with the distribution of meals throughout the day."
+        },
+        {
+            "role": "agent",
+            "message": "Are there any other dietary restrictions or preferences that we should take into account while planning your meals? For example, are there any other nutrients you're trying to get a certain amount of, or any foods you're trying to avoid?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other dietary restrictions or preferences. I'm just focusing on protein, carbs, and fat."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Just to clarify, are there any other factors that we should consider when planning your meals? For example, are there any time constraints, budget constraints, or other considerations that we should be aware of?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other factors to consider. I just want to meet my protein and carb goals while minimizing fat."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, I think I have all the information I need. Let me summarize:\n\n- You want to meet your daily goals of at least 160g of protein and 180g of carbs.\n- You want to minimize your fat intake, with no specific maximum limit.\n- You're open to eating any combination of salmon lunches and bison burgers.\n- No more than 25% of the meals should be salmon lunches due to cost.\n- You'd like to have at least three meals a day, but no more than six.\n- You're flexible with the distribution of meals throughout the day.\n- There are no other dietary restrictions or preferences, and no other factors to consider.\n\nDoes this accurately represent your situation and goals?"
+        },
+        {
+            "role": "client",
+            "message": "I'm sorry, but there seems to be a misunderstanding. There are no constraints on the number of meals per day or the distribution of meals throughout the day. The only constraints are that I want to meet my daily goals of at least 160g of protein and 180g of carbs, minimize my fat intake, and due to cost, no more than 25% of the meals should be salmon lunches."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Just to clarify, are there any other factors that we should consider when planning your meals? For example, are there any time constraints, budget constraints, or other considerations that we should be aware of?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other factors to consider. I just want to meet my protein and carb goals while minimizing fat."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, I think I have all the information I need. Let me summarize:\n\n- You want to meet your daily goals of at least 160g of protein and 180g of carbs.\n- You want to minimize your fat intake, with no specific maximum limit.\n- You're open to eating any combination of salmon lunches and bison burgers.\n- No more than 25% of the meals should be salmon lunches due to cost.\n\nDoes this accurately represent your situation and goals?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. Thank you for summarizing my situation and goals. I look forward to seeing the meal plan you come up with."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.33766233766233766,
+        "Rouge-1: Recall": 0.25742574257425743,
+        "Rouge-1: F1": 0.29213483146067415,
+        "Rouge-2: Precision": 0.15789473684210525,
+        "Rouge-2: Recall": 0.12,
+        "Rouge-2: F1": 0.13636363636363635,
+        "Rouge-L: Precision": 0.23376623376623376,
+        "Rouge-L: Recall": 0.1782178217821782,
+        "Rouge-L: F1": 0.20224719101123592,
+        "BERTscore: F1": 0.8794659972190857,
+        "BERTscore: Precision": 0.8696000576019287,
+        "BERTscore: Recall": 0.8895583748817444,
+        "GPT-4: Recall": 3,
+        "GPT-4: Precision": 4,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1556,
+    "temperature": 0,
+    "problem_statement": "A fitness trainer meal-preps two types of meals, a salmon lunch and a bison burger. The salmon lunch contains 15 grams of protein, 20 grams of carbs, and 8 grams of fat. The bison burger contains 30 grams of protein, 20 grams of carbs, and 13 grams of fat. The fitness trainer wants to get at least 160 grams of protein and 180 grams of carbs. In addition, because the salmon lunch is expensive, at most 25% of the meals should be salmon lunch. How many of each meal should he eat if he wants to minimize his fat intake?",
+    "summary": "Alright, I think I have all the information I need. Let me summarize:\n\n- You want to meet your daily goals of at least 160g of protein and 180g of carbs.\n- You want to minimize your fat intake, with no specific maximum limit.\n- You're open to eating any combination of salmon lunches and bison burgers.\n- No more than 25% of the meals should be salmon lunches due to cost.\n\nDoes this accurately represent your situation and goals?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "-458048177"
+}

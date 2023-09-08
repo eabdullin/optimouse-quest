@@ -1,0 +1,188 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to figure out the optimal number of chocolate and maple donuts to make daily for maximum profit."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds delicious! To help you out, I'll need some more information. Could you please tell me how much profit you make from each chocolate and each maple donut?"
+        },
+        {
+            "role": "client",
+            "message": "The profit per chocolate donut is $2 and the profit per maple donut is $3."
+        },
+        {
+            "role": "agent",
+            "message": "That's a good start! Now, let's talk about the resources you have. How many donuts can you make in total each day?"
+        },
+        {
+            "role": "client",
+            "message": "I can make at most 100 chocolate donuts and 150 maple donuts daily, with a total of at least 200 donuts."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, are there any other factors or limitations that we need to consider? For example, do you have a minimum number of each type of donut that you need to make, or any other restrictions?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, there is a daily demand of at least 50 chocolate donuts and at least 75 maple donuts."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a limit to the total number of donuts you can make in a day, regardless of the type?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, I can make a total of 250 donuts per day, regardless of the type."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have any other restrictions or requirements that we need to consider? For example, do you have a budget for ingredients, or any other factors that could affect how many donuts you can make?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other restrictions or requirements."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Let's summarize the information:\n\n- You can make at most 100 chocolate donuts and 150 maple donuts daily.\n- You have a daily demand of at least 50 chocolate donuts and at least 75 maple donuts.\n- You can make a total of 250 donuts per day, regardless of the type.\n- The profit per chocolate donut is $2 and the profit per maple donut is $3.\n\nIs there anything else that we should consider in this scenario?"
+        },
+        {
+            "role": "client",
+            "message": "Actually, there's a slight correction. I have a contract with a local grocery store and must make at least 200 donuts total of either type per day. There's no specific limit to the total number of donuts I can make in a day, as long as I meet this minimum requirement."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. So, you must make at least 200 donuts total of either type per day to fulfill your contract with the local grocery store. Is there a maximum number of donuts that you can sell to the grocery store, or can they take all the donuts you can make?"
+        },
+        {
+            "role": "client",
+            "message": "The grocery store can take all the donuts I can make. There's no maximum limit on their end."
+        },
+        {
+            "role": "agent",
+            "message": "That's great to know. Now, considering the profit from each type of donut and the minimum and maximum quantities you can make, what would you like to achieve? Would you like to maximize your profit, meet the demand, or something else?"
+        },
+        {
+            "role": "client",
+            "message": "I would like to maximize my profit while meeting the daily demand and contract requirements."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Just to confirm, is there a specific time frame you're looking at for maximizing your profit? For example, are you looking to maximize your profit on a daily basis, weekly basis, monthly basis, or some other time frame?"
+        },
+        {
+            "role": "client",
+            "message": "I'm looking to maximize my profit on a daily basis."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Just to make sure I have all the details, could you please confirm if there are any costs associated with making the donuts? For example, the cost of ingredients, labor, etc."
+        },
+        {
+            "role": "client",
+            "message": "No, the profit figures I provided already account for all costs associated with making the donuts."
+        },
+        {
+            "role": "agent",
+            "message": "Great! So, the profit figures already include all the costs. Now, is there a specific order in which you make the donuts? For example, do you make all the chocolate donuts first and then the maple ones, or vice versa? Or can you make them in any order?"
+        },
+        {
+            "role": "client",
+            "message": "I can make them in any order. There's no specific sequence I follow."
+        },
+        {
+            "role": "agent",
+            "message": "That's good to know. Now, is there a limit to how many donuts you can make in an hour or a day? For example, due to oven capacity or labor constraints?"
+        },
+        {
+            "role": "client",
+            "message": "There's no limit on how many donuts I can make in an hour or a day."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! So, you have the flexibility to make as many donuts as you want in a day. Now, do you have any preference for making more of one type of donut over the other, or are you open to making any mix of chocolate and maple donuts as long as it maximizes your profit?"
+        },
+        {
+            "role": "client",
+            "message": "I'm open to making any mix of chocolate and maple donuts as long as it maximizes my profit."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! So, you're open to any mix of chocolate and maple donuts that maximizes your profit. Now, do you have any other considerations or preferences that we should take into account? For example, do you prefer to make more donuts in the morning or in the evening, or does it not matter?"
+        },
+        {
+            "role": "client",
+            "message": "It doesn't matter when I make the donuts. There's no specific preference for morning or evening."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Just to confirm, is there a specific time frame you're looking at for maximizing your profit? For example, are you looking to maximize your profit on a daily basis, weekly basis, monthly basis, or some other time frame?"
+        },
+        {
+            "role": "client",
+            "message": "I'm looking to maximize my profit on a daily basis."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Just to confirm, is there a specific time frame you're looking at for maximizing your profit? For example, are you looking to maximize your profit on a daily basis, weekly basis, monthly basis, or some other time frame?"
+        },
+        {
+            "role": "client",
+            "message": "I'm looking to maximize my profit on a daily basis."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Now, is there a specific order in which you make the donuts? For example, do you make all the chocolate donuts first and then the maple ones, or vice versa? Or can you make them in any order?"
+        },
+        {
+            "role": "client",
+            "message": "I can make them in any order. There's no specific sequence I follow."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Now, is there a specific order in which you make the donuts? For example, do you make all the chocolate donuts first and then the maple ones, or vice versa? Or can you make them in any order?"
+        },
+        {
+            "role": "client",
+            "message": "I can make them in any order. There's no specific sequence I follow."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Now, is there a specific order in which you make the donuts? For example, do you make all the chocolate donuts first and then the maple ones, or vice versa? Or can you make them in any order?"
+        },
+        {
+            "role": "client",
+            "message": "I can make them in any order. There's no specific sequence I follow."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.7236842105263158,
+        "Rouge-1: Recall": 0.625,
+        "Rouge-1: F1": 0.6707317073170731,
+        "Rouge-2: Precision": 0.5333333333333333,
+        "Rouge-2: Recall": 0.45977011494252873,
+        "Rouge-2: F1": 0.49382716049382713,
+        "Rouge-L: Precision": 0.5526315789473685,
+        "Rouge-L: Recall": 0.4772727272727273,
+        "Rouge-L: F1": 0.5121951219512196,
+        "BERTscore: F1": 0.9108976721763611,
+        "BERTscore: Precision": 0.9030144214630127,
+        "BERTscore: Recall": 0.9189197421073914,
+        "GPT-4: Recall": 3,
+        "GPT-4: Precision": 4,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1922,
+    "temperature": 0,
+    "problem_statement": "A bakery makes chocolate and maple donuts. There is a daily demand of at least 50 chocolate donuts and at least 75 maple donuts. However the bakery can make at most 100 chocolate donuts and at most 150 maple donuts. They have a contract with a local grocery store and must make at least 200 donuts total of either type per day. If the profit per chocolate donut is $2 and the profit per maple donut is $3, how many of each should they make to maximize profit?",
+    "summary": "Great! Let's summarize the information:\n\n- You can make at most 100 chocolate donuts and 150 maple donuts daily.\n- You have a daily demand of at least 50 chocolate donuts and at least 75 maple donuts.\n- You can make a total of 250 donuts per day, regardless of the type.\n- The profit per chocolate donut is $2 and the profit per maple donut is $3.\n\nIs there anything else that we should consider in this scenario?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "1195333780"
+}

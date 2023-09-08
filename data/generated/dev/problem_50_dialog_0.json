@@ -1,0 +1,172 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to maximize my protein intake while limiting my sugar consumption and maintaining a preference for vanilla shakes."
+        },
+        {
+            "role": "agent",
+            "message": "That's a great goal! To help you better, could you please tell me how many meals or shakes you plan to have in a day?"
+        },
+        {
+            "role": "client",
+            "message": "She plans to have at least one shake every morning before her workout for the coming month."
+        },
+        {
+            "role": "agent",
+            "message": "That's a good start! Now, to help you better, could you please tell me the maximum amount of sugar you would like to consume in a day?"
+        },
+        {
+            "role": "client",
+            "message": "She is limiting her sugar consumption to at most 500 grams for the entire month."
+        },
+        {
+            "role": "agent",
+            "message": "That's a good limit to set. Now, could you please tell me the minimum amount of protein you would like to consume in a day?"
+        },
+        {
+            "role": "client",
+            "message": "She would like to consume at least 60 grams of protein per day."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me if there is a maximum amount of protein she would like to consume in a day?"
+        },
+        {
+            "role": "client",
+            "message": "She doesn't have a maximum protein limit, she wants to maximize her protein intake."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Now, could you please tell me if there is a specific brand of protein shake she prefers or any other specific requirements she has for the shake?"
+        },
+        {
+            "role": "client",
+            "message": "She prefers vanilla flavor and wants to drink at least twice as many vanilla shakes as chocolate ones. She must also drink at least 2 scoops of the chocolate shake."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Now, could you please tell me if there is a specific brand of protein shake she prefers or any other specific requirements she has for the shake?"
+        },
+        {
+            "role": "client",
+            "message": "She doesn't have a preference for a specific brand, but she wants to avoid high blood glucose levels."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Now, could you please tell me if there is a specific brand of protein shake she prefers or any other specific requirements she has for the shake?"
+        },
+        {
+            "role": "client",
+            "message": "She doesn't have a preference for a specific brand, but she wants to avoid high blood glucose levels."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Now, could you please tell me if there is a specific brand of protein shake she prefers or any other specific requirements she has for the shake?"
+        },
+        {
+            "role": "client",
+            "message": "She doesn't have a preference for a specific brand, but she wants to avoid high blood glucose levels."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Now, could you please tell me if there is a specific brand of protein shake she prefers or any other specific requirements she has for the shake?"
+        },
+        {
+            "role": "client",
+            "message": "She doesn't have a preference for a specific brand, but she wants to avoid high blood glucose levels."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, could you please tell me if there is a specific amount of calories she would like to consume in a day?"
+        },
+        {
+            "role": "client",
+            "message": "She doesn't have a specific calorie limit, her main focus is on protein and sugar intake."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me if there is a specific brand of protein shake she prefers or any other specific requirements she has for the shake?"
+        },
+        {
+            "role": "client",
+            "message": "She doesn't have a specific calorie limit, her main focus is on protein and sugar intake."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, could you please tell me if there is a specific amount of calories she would like to consume in a day?"
+        },
+        {
+            "role": "client",
+            "message": "She doesn't have a specific calorie limit, her main focus is on protein and sugar intake."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me if there is a specific brand of protein shake she prefers or any other specific requirements she has for the shake?"
+        },
+        {
+            "role": "client",
+            "message": "She doesn't have a specific calorie limit, her main focus is on protein and sugar intake."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me if there is a specific brand of protein shake she prefers or any other specific requirements she has for the shake?"
+        },
+        {
+            "role": "client",
+            "message": "She doesn't have a specific brand preference, but she wants to avoid high blood glucose levels."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me if there is a specific amount of calories she would like to consume in a day?"
+        },
+        {
+            "role": "client",
+            "message": "She doesn't have a specific calorie limit, her main focus is on protein and sugar intake."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me if there is a specific amount of calories she would like to consume in a day?"
+        },
+        {
+            "role": "client",
+            "message": "She doesn't have a specific calorie limit, her main focus is on protein and sugar intake."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me if there is a specific amount of calories she would like to consume in a day?"
+        },
+        {
+            "role": "client",
+            "message": "She doesn't have a specific calorie limit, her main focus is on protein and sugar intake."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me if there is a specific amount of calories she would like to consume in a day?"
+        },
+        {
+            "role": "client",
+            "message": "She doesn't have a specific calorie limit, her main focus is on protein and sugar intake."
+        },
+        {
+            "role": "agent",
+            "message": "Does she have a specific budget for the protein shakes?"
+        },
+        {
+            "role": "client",
+            "message": "She hasn't specified a budget for the protein shakes."
+        }
+    ],
+    "validation": null,
+    "total_tokens": 1552,
+    "temperature": 0,
+    "problem_statement": "An athlete drinks protein shakes in the morning before a workout and is planning for the coming month. She has two selections of protein shakes, chocolate powder or vanilla powder shakes. Each scoop of chocolate powder protein shake contains 20 grams of protein and 4 grams of sugar. Each scoop of vanilla powder protein shake contains 18 grams of protein and 7 grams of sugar. Since she prefers the vanilla flavour, she would like to drink at least twice as many vanilla powder shakes as chocolate powder shakes. However, she must also drink at least 2 scoops of the chocolate powder shake. To avoid high blood glucose levels, she is limiting her consumption to at most 500 grams of sugar over this period of time. How many of each protein shake should the athlete drink to maximize her total protein intake over this period of time?",
+    "summary": null,
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_problem_id": "-1003923679",
+    "original_id": "-1003923679"
+}

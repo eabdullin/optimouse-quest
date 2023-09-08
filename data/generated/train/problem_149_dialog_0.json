@@ -1,0 +1,156 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to attract more customers to my store by selling discounted video games while minimizing costs."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like a great plan! To help you better, I need to understand a few more details. Could you please tell me how many different types of video games you plan to sell in your store?"
+        },
+        {
+            "role": "client",
+            "message": "I plan to sell two types of video games, Kommand and Kontrol."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me how much profit you make from selling each type of video game?"
+        },
+        {
+            "role": "client",
+            "message": "For each unit of Kommand sold, I make a profit of $3, and for each unit of Kontrol sold, I make a profit of $5."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful to know. Now, could you please tell me how many units of each video game you can afford to buy for your store?"
+        },
+        {
+            "role": "client",
+            "message": "I can afford to spend up to $500 daily for this sales campaign."
+        },
+        {
+            "role": "agent",
+            "message": "That's a good budget. Could you please tell me how much each unit of Kommand and Kontrol costs?"
+        },
+        {
+            "role": "client",
+            "message": "Each unit of Kommand costs $14 and each unit of Kontrol costs $8."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me if there are any restrictions on the number of each type of video game you can sell per day?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, I need to attract at least 200 customers into my store daily."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Is there a limit to how many units of Kommand and Kontrol you can sell each day?"
+        },
+        {
+            "role": "client",
+            "message": "I can sell up to 50 units of Kommand and 100 units of Kontrol each day."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Now, is there a minimum number of each type of video game you need to sell each day?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no minimum number of units I need to sell each day."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me if there are any other restrictions or requirements that I should be aware of?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other restrictions or requirements."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, I believe I have all the information I need. Let me summarize:\n\n- You're selling two types of video games: Kommand and Kontrol.\n- Each unit of Kommand sold gives you a profit of $3, and each unit of Kontrol sold gives you a profit of $5.\n- You can afford to spend up to $500 daily for this sales campaign.\n- Each unit of Kommand costs $14 and each unit of Kontrol costs $8.\n- You aim to attract at least 200 customers into your store daily.\n- You can sell up to 50 units of Kommand and 100 units of Kontrol each day.\n\nDoes this accurately represent your situation?"
+        },
+        {
+            "role": "client",
+            "message": "I'm sorry, but there seems to be some confusion. The cost I incur for each unit of Kommand and Kontrol sold is $11 and $3 respectively. Also, each unit of Kommand attracts 20 fans on average, while each unit of Kontrol attracts 5 fans on average. There's no limit on the number of units I can sell each day, and I didn't mention the profit I make from each unit sold. Could we go over the details again?"
+        },
+        {
+            "role": "agent",
+            "message": "I apologize for the confusion earlier. Let's clarify the details. Could you please tell me how much profit you make from selling each unit of Kommand and Kontrol?"
+        },
+        {
+            "role": "client",
+            "message": "I'm sorry, but I don't have the details about the profit I make from each unit sold."
+        },
+        {
+            "role": "agent",
+            "message": "I see, thank you for the clarification. Could you please tell me what your main goal is? Are you trying to maximize the number of customers attracted, minimize the cost, or something else?"
+        },
+        {
+            "role": "client",
+            "message": "My main goal is to attract at least 200 customers daily while minimizing the cost."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. To ensure I have all the details correct, could you please confirm the following:\n\n- You're selling two types of video games: Kommand and Kontrol.\n- The cost you incur for each unit of Kommand sold is $11, and for each unit of Kontrol sold is $3.\n- Each unit of Kommand attracts 20 customers on average, while each unit of Kontrol attracts 5 customers on average.\n- You aim to attract at least 200 customers into your store daily.\n- There's no limit on the number of units you can sell each day.\n- You can afford to spend up to $500 daily for this sales campaign.\n\nIs this correct?"
+        },
+        {
+            "role": "client",
+            "message": "I'm sorry, but there seems to be some confusion. The cost I incur for each unit of Kommand and Kontrol sold is $11 and $3 respectively. Also, each unit of Kommand attracts 20 fans on average, while each unit of Kontrol attracts 5 fans on average. There's no limit on the number of units I can sell each day, and I didn't mention the profit I make from each unit sold. Could we go over the details again?"
+        },
+        {
+            "role": "agent",
+            "message": "I apologize for the confusion earlier. Let's clarify the details. Could you please tell me how much profit you make from selling each unit of Kommand and Kontrol?"
+        },
+        {
+            "role": "client",
+            "message": "I'm sorry, but I don't have the details about the profit I make from each unit sold."
+        },
+        {
+            "role": "agent",
+            "message": "I see, thank you for the clarification. Could you please tell me what your main goal is? Are you trying to maximize the number of customers attracted, minimize the cost, or something else?"
+        },
+        {
+            "role": "client",
+            "message": "My main goal is to attract at least 200 customers daily while minimizing the cost."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. To ensure I have all the details correct, could you please confirm the following:\n\n- You're selling two types of video games: Kommand and Kontrol.\n- The cost you incur for each unit of Kommand sold is $11, and for each unit of Kontrol sold is $3.\n- Each unit of Kommand attracts 20 customers on average, while each unit of Kontrol attracts 5 customers on average.\n- You aim to attract at least 200 customers into your store daily.\n- There's no limit on the number of units you can sell each day.\n- You can afford to spend up to $500 daily for this sales campaign.\n\nIs this correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. Thank you for summarizing the details. I appreciate your help."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.5370370370370371,
+        "Rouge-1: Recall": 0.47540983606557374,
+        "Rouge-1: F1": 0.5043478260869565,
+        "Rouge-2: Precision": 0.2616822429906542,
+        "Rouge-2: Recall": 0.23140495867768596,
+        "Rouge-2: F1": 0.24561403508771928,
+        "Rouge-L: Precision": 0.3148148148148148,
+        "Rouge-L: Recall": 0.2786885245901639,
+        "Rouge-L: F1": 0.2956521739130435,
+        "BERTscore: F1": 0.8810612559318542,
+        "BERTscore: Precision": 0.8740991950035095,
+        "BERTscore: Recall": 0.8881351351737976,
+        "GPT-4: Recall": 4,
+        "GPT-4: Precision": 3,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1820,
+    "temperature": 0,
+    "problem_statement": "GameShop would like to attract at least 200 customers into its store daily. Therefore, it decides to sell two popular video games, Kommand and Kontrol, at steep discount to attract foot traffic. The GameShop owner pays $14 and $8 for each unit of Kommand and Kontrol respectively and has at its disposition a maximum daily budget of $500 for this sales campaign. For each unit of Kommand game sold, GameShop incurs an cost of $11 and attracts 20 fans into its store in average. In comparison, each unit of Kontrol incurs a lower cost of $3 but only attracts 5 fans in average. How many units of each video game should be stocked daily to meet his campaign while minimizing its cost?",
+    "summary": "Understood. To ensure I have all the details correct, could you please confirm the following:\n\n- You're selling two types of video games: Kommand and Kontrol.\n- The cost you incur for each unit of Kommand sold is $11, and for each unit of Kontrol sold is $3.\n- Each unit of Kommand attracts 20 customers on average, while each unit of Kontrol attracts 5 customers on average.\n- You aim to attract at least 200 customers into your store daily.\n- There's no limit on the number of units you can sell each day.\n- You can afford to spend up to $500 daily for this sales campaign.\n\nIs this correct?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "1323333207"
+}

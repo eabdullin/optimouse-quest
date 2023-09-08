@@ -1,0 +1,92 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in finding the best way to organize things or make decisions. Could you please tell me what situation or problem you'd like to find the best solution for?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I need help to maximize the number of smoothies I can deliver using my medium and specialty delivery bags."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds interesting! I'm sure we can find a way to maximize your smoothie delivery. To start, could you please tell me how many smoothies fit into a medium delivery bag and how many fit into a specialty delivery bag?"
+        },
+        {
+            "role": "client",
+            "message": "A medium bag can hold 7 orders and a specialty delivery bag can hold 12 orders."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, can you tell me how many of each type of bag you have available for deliveries?"
+        },
+        {
+            "role": "client",
+            "message": "I have at most 45 medium bags and 60 specialty delivery bags available for deliveries."
+        },
+        {
+            "role": "agent",
+            "message": "That's good to know. Now, is there a maximum number of orders you can deliver in a day or a target number of orders you want to deliver using these bags?"
+        },
+        {
+            "role": "client",
+            "message": "I can send at most 50 bags in total and I must send at least 6 specialty delivery bags."
+        },
+        {
+            "role": "agent",
+            "message": "Great! One last thing, what is your ultimate goal? Is it to maximize the number of orders delivered, or is there another objective you have in mind?"
+        },
+        {
+            "role": "client",
+            "message": "My ultimate goal is to maximize the total number of smoothies that can be delivered."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a minimum number of medium bags that you need to send out, similar to the requirement for the specialty delivery bags?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, at least three times as many medium bags must be used as specialty delivery bags."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a limit on the total number of medium and specialty delivery bags you can use? For example, you mentioned that you can send at most 50 bags in total, but is there a minimum number of bags you need to send out?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no minimum total number of bags to send out, only the maximum limit of 50 bags in total."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, I think I have all the information I need to help you maximize your smoothie delivery. Let me summarize:\n\n- You have two types of delivery bags: medium and specialty.\n- A medium bag can hold 7 orders and a specialty delivery bag can hold 12 orders.\n- You have at most 45 medium bags and 60 specialty delivery bags available for deliveries.\n- You can send out at most 50 bags in total.\n- You must send at least 6 specialty delivery bags.\n- At least three times as many medium bags must be used as specialty delivery bags.\n- Your ultimate goal is to maximize the total number of smoothies that can be delivered.\n\nDoes this cover everything?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. Thank you for summarizing the situation. I appreciate your help in finding the best solution to maximize the total number of smoothies that can be delivered."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.6754385964912281,
+        "Rouge-1: Recall": 0.7475728155339806,
+        "Rouge-1: F1": 0.7096774193548386,
+        "Rouge-2: Precision": 0.5221238938053098,
+        "Rouge-2: Recall": 0.5784313725490197,
+        "Rouge-2: F1": 0.5488372093023257,
+        "Rouge-L: Precision": 0.39473684210526316,
+        "Rouge-L: Recall": 0.4368932038834951,
+        "Rouge-L: F1": 0.4147465437788018,
+        "BERTscore: F1": 0.9055392742156982,
+        "BERTscore: Precision": 0.8909498453140259,
+        "BERTscore: Recall": 0.9206143617630005,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1018,
+    "temperature": 1,
+    "problem_statement": "A smoothie company offers delivery and ships in specialty delivery and medium bags. A specialty delivery bag can hold 12 orders while a medium bag can hold 7 orders. Most delivery drivers prefer medium bags, so at least three times as many medium bags must be used as specialty delivery bags. The smoothie company has at most 45 medium bags and 60 specialty delivery bags. If the company must send at least 6 specialty delivery bags and can send at most 50 bags in total, how many of each should they send to maximize the total number of smoothies that can be delivered?",
+    "summary": "Alright, I think I have all the information I need to help you maximize your smoothie delivery. Let me summarize:\n\n- You have two types of delivery bags: medium and specialty.\n- A medium bag can hold 7 orders and a specialty delivery bag can hold 12 orders.\n- You have at most 45 medium bags and 60 specialty delivery bags available for deliveries.\n- You can send out at most 50 bags in total.\n- You must send at least 6 specialty delivery bags.\n- At least three times as many medium bags must be used as specialty delivery bags.\n- Your ultimate goal is to maximize the total number of smoothies that can be delivered.\n\nDoes this cover everything?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "947008343"
+}

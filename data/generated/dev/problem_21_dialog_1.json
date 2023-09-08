@@ -1,0 +1,84 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello! I'm OptiMouse, here to help you with your planning needs. Could you tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to minimize our weekly wage bill while meeting certain staffing requirements for our software company."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. It's important to keep costs in check while ensuring that your team is adequately staffed. Can you kindly provide more detail about your staffing requirements? Specifically, how many different roles do you have and what are the minimum staffing levels required for each role weekly?"
+        },
+        {
+            "role": "client",
+            "message": "We have two roles: UI designers and software engineers. We need at least 50 workers in total, with at least 10 being software engineers."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the details on the roles. Now, I need to understand the wages. What are the weekly wages for UI designers and software engineers?"
+        },
+        {
+            "role": "client",
+            "message": "The weekly wages are $2500 for UI designers and $2000 for software engineers."
+        },
+        {
+            "role": "agent",
+            "message": "Got it. Is there a maximum number of workers you're allowed or able to hire in a week, or any other specific constraints that I should know about?"
+        },
+        {
+            "role": "client",
+            "message": "There's no maximum number of workers, but the number of software engineers should be at least a third of the number of UI designers."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Also, are there any budget constraints we need to consider while planning the number of employees for each role? For instance, is there a maximum amount you can spend per week on wages?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, we want to keep the weekly wage bill below $200,000."
+        },
+        {
+            "role": "agent",
+            "message": "Absolutely. Just one more question before we move forward: Are the weekly wages for both roles fixed, or is there any flexibility in how much you can pay the UI designers and software engineers?"
+        },
+        {
+            "role": "client",
+            "message": "The weekly wages for both UI designers and software engineers are fixed at $2500 and $2000 respectively."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, I think we've covered all the necessary details. Let's confirm:\n\n- You need to minimize your weekly wage bill for a team of UI designers and software engineers at your software company.\n- You need at least 50 workers in total, with at least 10 being software engineers.\n- The weekly wage for a UI designer is $2500 and for a software engineer, it's $2000.\n- The number of software engineers has to be at least a third of the number of UI designers.\n- The total weekly wage bill should be kept below $200,000.\n\nDoes this accurately reflect your objective and the requirements?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. Thank you for summarizing the details. I look forward to seeing the plan you come up with to help us minimize our weekly wage bill while meeting our staffing requirements."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.5192307692307693,
+        "Rouge-1: Recall": 0.627906976744186,
+        "Rouge-1: F1": 0.5684210526315789,
+        "Rouge-2: Precision": 0.2912621359223301,
+        "Rouge-2: Recall": 0.35294117647058826,
+        "Rouge-2: F1": 0.3191489361702128,
+        "Rouge-L: Precision": 0.3557692307692308,
+        "Rouge-L: Recall": 0.43023255813953487,
+        "Rouge-L: F1": 0.38947368421052636,
+        "BERTscore: F1": 0.887962818145752,
+        "BERTscore: Precision": 0.8794946074485779,
+        "BERTscore: Recall": 0.8965957164764404,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 955,
+    "temperature": 1,
+    "problem_statement": "A software company has UI designers earning $2500 per week and software engineers earning $2000 per week. The contracts with companies to provide cloud services require at least 50 workers, of whom at least 10 must be software engineers. To make sure there is enough experience on the team, the number of software engineers should be at least a third of the number to UI designers. The company wants to keep the weekly wage bill below $200000. Formulate an LP problem to minimize the wage bill.",
+    "summary": "Alright, I think we've covered all the necessary details. Let's confirm:\n\n- You need to minimize your weekly wage bill for a team of UI designers and software engineers at your software company.\n- You need at least 50 workers in total, with at least 10 being software engineers.\n- The weekly wage for a UI designer is $2500 and for a software engineer, it's $2000.\n- The number of software engineers has to be at least a third of the number of UI designers.\n- The total weekly wage bill should be kept below $200,000.\n\nDoes this accurately reflect your objective and the requirements?",
+    "prompts_id": "373074de7d66b769d7c578ff85fe6891",
+    "original_id": "-188381292"
+}

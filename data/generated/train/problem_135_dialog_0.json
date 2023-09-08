@@ -1,0 +1,84 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for a particular situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to maximize my profit from selling honey-roasted and chocolate-covered almonds in two different mixes."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds delicious! To help you out, I'll need to know a bit more about your situation. Could you tell me how much profit you make from each mix of honey-roasted and chocolate-covered almonds?"
+        },
+        {
+            "role": "client",
+            "message": "Sure! The profit per kg of the first mix is $12 and for the second mix, it's $15."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you tell me if there are any limitations or restrictions on how much of each mix you can produce or sell? For example, do you have a limited supply of almonds or a maximum capacity for production?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, I have 100 kg of honey-roasted almonds and 150 kg of chocolate-covered almonds available."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful information. Now, could you tell me how many kilograms of honey-roasted and chocolate-covered almonds are used in each mix?"
+        },
+        {
+            "role": "client",
+            "message": "The first mix contains 30% honey-roasted and 70% chocolate-covered almonds. The second mix has 40% honey-roasted and 60% chocolate-covered almonds."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Now, is there a maximum amount of each mix that you can sell, or perhaps a minimum amount that you must sell?"
+        },
+        {
+            "role": "client",
+            "message": "There's no maximum or minimum amount that I must sell for each mix."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! So, to clarify, your goal is to maximize your profit from selling these two mixes of almonds, correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. I want to maximize my profit from selling these two mixes of almonds."
+        },
+        {
+            "role": "agent",
+            "message": "Perfect! Let's summarize the information:\n\n- You have two types of almonds: honey-roasted and chocolate-covered.\n- You have 100 kg of honey-roasted almonds and 150 kg of chocolate-covered almonds available.\n- You are selling two mixes of almonds. \n- The first mix contains 30% honey-roasted and 70% chocolate-covered almonds, and you make a profit of $12 per kg.\n- The second mix contains 40% honey-roasted and 60% chocolate-covered almonds, and you make a profit of $15 per kg.\n- There's no maximum or minimum amount that you must sell for each mix.\n\nYour goal is to maximize your profit from selling these two mixes of almonds. \n\nDid I get everything right?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, you got everything right! Thank you for your help."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.5652173913043478,
+        "Rouge-1: Recall": 0.7303370786516854,
+        "Rouge-1: F1": 0.6372549019607843,
+        "Rouge-2: Precision": 0.35964912280701755,
+        "Rouge-2: Recall": 0.4659090909090909,
+        "Rouge-2: F1": 0.40594059405940597,
+        "Rouge-L: Precision": 0.3565217391304348,
+        "Rouge-L: Recall": 0.4606741573033708,
+        "Rouge-L: F1": 0.4019607843137255,
+        "BERTscore: F1": 0.9054990410804749,
+        "BERTscore: Precision": 0.8860824108123779,
+        "BERTscore: Recall": 0.9257857203483582,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 942,
+    "temperature": 0,
+    "problem_statement": "A store sells honey-roasted almonds and chocolate-covered almonds in bulk. The first mix contains 30% honey-roasted almonds and 70% chocolate-covered almonds. The second mix contains 40% honey-roasted almonds and 60% chocolate-covered almonds. The store has on hand 100 kg of honey-roasted almonds and 150 kg of chocolate-covered almonds. If the profit per kg of the first mix is $12 and the profit per kg of the second mix is $15, how many kg of each should be prepared to maximize profit?",
+    "summary": "Perfect! Let's summarize the information:\n\n- You have two types of almonds: honey-roasted and chocolate-covered.\n- You have 100 kg of honey-roasted almonds and 150 kg of chocolate-covered almonds available.\n- You are selling two mixes of almonds. \n- The first mix contains 30% honey-roasted and 70% chocolate-covered almonds, and you make a profit of $12 per kg.\n- The second mix contains 40% honey-roasted and 60% chocolate-covered almonds, and you make a profit of $15 per kg.\n- There's no maximum or minimum amount that you must sell for each mix.\n\nYour goal is to maximize your profit from selling these two mixes of almonds. \n\nDid I get everything right?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "-1620664428"
+}

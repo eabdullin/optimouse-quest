@@ -1,0 +1,76 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello! I'm OptiMouse, here to help you create a perfect plan. Could you please tell me what you are trying to achieve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm a strawberry farmer looking to maximize the total amount of strawberries I can transport."
+        },
+        {
+            "role": "agent",
+            "message": "I see, to optimize your Strawberry transportation we need to know a bit more about your process. Could you tell me about the transportation options you have? For example, do you have different types of vehicles or containers to transport your strawberries?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, I have two types of containers: boxes and buckets. Boxes hold 7 units of strawberries and buckets hold 9 units. I have 500 boxes and 300 buckets available."
+        },
+        {
+            "role": "agent",
+            "message": "I see. How many units of strawberries do you have in total that need to be transported?"
+        },
+        {
+            "role": "client",
+            "message": "I have enough strawberries to fill all the containers. The limit is the number of containers I can transport, which is 650."
+        },
+        {
+            "role": "agent",
+            "message": "Just to clarify, do you have any restrictions on the number of boxes or buckets you can use for the transportation, apart from the total limit of 650 containers?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, I need to transport at least three times more buckets than boxes and at least 25 must be boxes."
+        },
+        {
+            "role": "agent",
+            "message": "Are there any other conditions or factors affecting the transportation process you think I should be aware of, such as transportation costs or maximum loading capacity?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other factors. The main goal is to maximize the amount of strawberries transported."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Let me just confirm everything for our records:\n\n- You are a strawberry farmer.\n- You need to transport your strawberries. \n- You can use two types of containers: boxes and buckets. \n- A box can hold 7 units of strawberries and a bucket can hold 9 units. \n- You have 500 boxes and 300 buckets available. \n- The total number of containers used for transportation should not exceed 650. \n- The number of buckets used should be at least three times higher than the number of boxes. \n- At least 25 boxes should be used. \n\nIn that case, you would like to maximize the total amount of strawberries transported. Correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. I appreciate your help in figuring out the best way to transport my strawberries."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.5769230769230769,
+        "Rouge-1: Recall": 0.625,
+        "Rouge-1: F1": 0.6,
+        "Rouge-2: Precision": 0.2621359223300971,
+        "Rouge-2: Recall": 0.28421052631578947,
+        "Rouge-2: F1": 0.27272727272727276,
+        "Rouge-L: Precision": 0.4230769230769231,
+        "Rouge-L: Recall": 0.4583333333333333,
+        "Rouge-L: F1": 0.43999999999999995,
+        "BERTscore: F1": 0.8828703761100769,
+        "BERTscore: Precision": 0.8632417321205139,
+        "BERTscore: Recall": 0.9034123420715332,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 861,
+    "temperature": 1,
+    "problem_statement": "A strawberry farmer delivers his strawberries in two types of containers, a box and a bucket. A box contains 7 units of strawberries whereas a bucket contains 9 units of strawberries. The farmer has access to 500 boxes and 300 buckets. Buckets sell for more profit; therefore, the farmer wants to sell at least three times more buckets than boxes. Additionally, he can transport at most 650 containers and at least 25 must be boxes. How many of each type of container should the farmer order to maximize the total amount of strawberries he can transport?",
+    "summary": "Understood. Let me just confirm everything for our records:\n\n- You are a strawberry farmer.\n- You need to transport your strawberries. \n- You can use two types of containers: boxes and buckets. \n- A box can hold 7 units of strawberries and a bucket can hold 9 units. \n- You have 500 boxes and 300 buckets available. \n- The total number of containers used for transportation should not exceed 650. \n- The number of buckets used should be at least three times higher than the number of boxes. \n- At least 25 boxes should be used. \n\nIn that case, you would like to maximize the total amount of strawberries transported. Correct?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "-1211890581"
+}

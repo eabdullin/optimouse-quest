@@ -1,0 +1,92 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to figure out the optimal number of orange and apple juice glasses to meet my amino acid needs while minimizing Glycine intake."
+        },
+        {
+            "role": "agent",
+            "message": "That's interesting! To help you better, could you please tell me how many amino acids are there in a glass of orange juice and a glass of apple juice?"
+        },
+        {
+            "role": "client",
+            "message": "A glass of orange juice contains 2 units of Lysine, 3 units of Alanine, 5 units of Methionine, and 7 units of Glycine. A glass of apple juice contains 5 units of Lysine, 5 units of Alanine, 2 units of Methionine, and 1 unit of Glycine."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful information! Now, could you please tell me how many units of each amino acid (Lysine, Alanine, and Methionine) you need to meet your daily needs?"
+        },
+        {
+            "role": "client",
+            "message": "I need at least 30 units of Lysine, at least 40 units of Alanine, and at most 50 units of Methionine daily."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me if there is a limit to the number of glasses of orange juice and apple juice you can have in a day?"
+        },
+        {
+            "role": "client",
+            "message": "I can have up to 10 glasses of each juice per day."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific limit on the amount of Glycine you want to consume in a day?"
+        },
+        {
+            "role": "client",
+            "message": "I would like to keep my Glycine intake as low as possible."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific budget or cost associated with each glass of orange juice and apple juice?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no specific cost associated with each glass of juice."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, I think I have all the information I need. Let me summarize:\n\n- You can have up to 10 glasses of orange juice and 10 glasses of apple juice per day.\n- A glass of orange juice contains 2 units of Lysine, 3 units of Alanine, 5 units of Methionine, and 7 units of Glycine.\n- A glass of apple juice contains 5 units of Lysine, 5 units of Alanine, 2 units of Methionine, and 1 unit of Glycine.\n- You need at least 30 units of Lysine and at least 40 units of Alanine daily.\n- You need at most 50 units of Methionine daily.\n- You want to minimize your Glycine intake.\n\nDoes this accurately represent your situation?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct except for the limit on the number of glasses of juice. There's no specific limit mentioned on the number of glasses of orange juice and apple juice I can have in a day."
+        },
+        {
+            "role": "agent",
+            "message": "I see, thank you for the clarification. So, there's no specific limit on the number of glasses of orange juice and apple juice you can have in a day. \n\nNow, let's summarize:\n\n- A glass of orange juice contains 2 units of Lysine, 3 units of Alanine, 5 units of Methionine, and 7 units of Glycine.\n- A glass of apple juice contains 5 units of Lysine, 5 units of Alanine, 2 units of Methionine, and 1 unit of Glycine.\n- You need at least 30 units of Lysine and at least 40 units of Alanine daily.\n- You need at most 50 units of Methionine daily.\n- You want to minimize your Glycine intake.\n\nDoes this accurately represent your situation?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. Thank you for summarizing my situation. I appreciate your help."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.6610169491525424,
+        "Rouge-1: Recall": 0.7878787878787878,
+        "Rouge-1: F1": 0.7188940092165897,
+        "Rouge-2: Precision": 0.5726495726495726,
+        "Rouge-2: Recall": 0.6836734693877551,
+        "Rouge-2: F1": 0.6232558139534883,
+        "Rouge-L: Precision": 0.6101694915254238,
+        "Rouge-L: Recall": 0.7272727272727273,
+        "Rouge-L: F1": 0.6635944700460831,
+        "BERTscore: F1": 0.9205749034881592,
+        "BERTscore: Precision": 0.9046586751937866,
+        "BERTscore: Recall": 0.9370613098144531,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1238,
+    "temperature": 0,
+    "problem_statement": "In order to get some extra amino acids, Cindy drinks orange juice and apple juice. A glass of orange juice contains 2 units of Lysine, 3 units of Alanine, 5 units of Methionine, and 7 units of Glycine. A glass of apple juice contains 5 units of Lysine, 5 units of Alanine, 2 units of Methionine, and 1 unit of Glycine. She requires at least 30 units of Lysine, at least 40 units of Alanine, and at most 50 units of Methionine. How many glasses of each juice should she drink to minimize the amount of Glycine she gets.",
+    "summary": "I see, thank you for the clarification. So, there's no specific limit on the number of glasses of orange juice and apple juice you can have in a day. \n\nNow, let's summarize:\n\n- A glass of orange juice contains 2 units of Lysine, 3 units of Alanine, 5 units of Methionine, and 7 units of Glycine.\n- A glass of apple juice contains 5 units of Lysine, 5 units of Alanine, 2 units of Methionine, and 1 unit of Glycine.\n- You need at least 30 units of Lysine and at least 40 units of Alanine daily.\n- You need at most 50 units of Methionine daily.\n- You want to minimize your Glycine intake.\n\nDoes this accurately represent your situation?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "1173275251"
+}

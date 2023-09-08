@@ -1,0 +1,100 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to maximize profit from selling soup in individual and family servings."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like a great business! To help you maximize your profit, I need to understand a bit more about your soup business. Could you please tell me how much profit you make from selling an individual serving of soup and a family serving of soup?"
+        },
+        {
+            "role": "client",
+            "message": "Each individual serving of soup gives me a profit of $3, and each family serving brings in a profit of $10."
+        },
+        {
+            "role": "agent",
+            "message": "That's a good start! Now, let's talk about your resources. How many servings of soup can you prepare in a day?"
+        },
+        {
+            "role": "client",
+            "message": "I have 50000 ml of soup to serve in a day."
+        },
+        {
+            "role": "agent",
+            "message": "That's a lot of soup! Now, could you please tell me how much soup goes into an individual serving and a family serving?"
+        },
+        {
+            "role": "client",
+            "message": "An individual serving has 250 ml of soup, while a family serving contains 1200 ml."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, are there any restrictions on how many individual or family servings you can sell in a day? For example, do you have a maximum number of each type of serving that you can sell?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, I need to make at least three times the number of individual servings than the family servings. Also, I need to make at least 10 family servings."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Now, is there a maximum number of individual servings you can sell in a day?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no maximum limit on the number of individual servings I can sell in a day."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a maximum number of family servings you can sell in a day?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no maximum limit on the number of family servings I can sell in a day."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, let's talk about your customers. Do you have any information about the demand for individual and family servings? For example, do you know the maximum number of each type of serving that your customers would buy in a day?"
+        },
+        {
+            "role": "client",
+            "message": "I'm not sure about the maximum demand for each type of serving."
+        },
+        {
+            "role": "agent",
+            "message": "That's okay. We can work with the information we have. Let's summarize:\n\n- You sell soup in two sizes: individual servings and family servings.\n- An individual serving is 250 ml and gives you a profit of $3.\n- A family serving is 1200 ml and gives you a profit of $10.\n- You have 50000 ml of soup to serve in a day.\n- You need to make at least three times the number of individual servings than the family servings.\n- You need to make at least 10 family servings.\n\nIs there anything else that I should know about your business or your goals?"
+        },
+        {
+            "role": "client",
+            "message": "That's all the information I have. Thank you for your help!"
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.6274509803921569,
+        "Rouge-1: Recall": 0.5925925925925926,
+        "Rouge-1: F1": 0.6095238095238096,
+        "Rouge-2: Precision": 0.45544554455445546,
+        "Rouge-2: Recall": 0.42990654205607476,
+        "Rouge-2: F1": 0.4423076923076923,
+        "Rouge-L: Precision": 0.43137254901960786,
+        "Rouge-L: Recall": 0.4074074074074074,
+        "Rouge-L: F1": 0.419047619047619,
+        "BERTscore: F1": 0.8985605835914612,
+        "BERTscore: Precision": 0.8858045935630798,
+        "BERTscore: Recall": 0.9116893410682678,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1027,
+    "temperature": 0,
+    "problem_statement": "A soup kitchen has 50000 ml of soup to serve. They sell both individual servings and family servings. An individual serving has 250 ml of soup while a family serving has 1200 ml of soup. The soup kitchen knows that they need to make at least three times the number of individual servings than the family servings. They also know that that they need to make at least 10 family servings. Each individual serving is sold for a profit of $3 and each family serving is sold for a profit of $10. How many of each type of serving needs to be made in order to maximize profit?",
+    "summary": "That's okay. We can work with the information we have. Let's summarize:\n\n- You sell soup in two sizes: individual servings and family servings.\n- An individual serving is 250 ml and gives you a profit of $3.\n- A family serving is 1200 ml and gives you a profit of $10.\n- You have 50000 ml of soup to serve in a day.\n- You need to make at least three times the number of individual servings than the family servings.\n- You need to make at least 10 family servings.\n\nIs there anything else that I should know about your business or your goals?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "-589883453"
+}

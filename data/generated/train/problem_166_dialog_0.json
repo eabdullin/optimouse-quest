@@ -1,0 +1,171 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for a particular situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm an actor needing to gain weight for a role. I need to consume at least 3000 calories and 200 grams of fat daily, eating only pizza and donuts."
+        },
+        {
+            "role": "agent",
+            "message": "That's an interesting challenge! To help you out, I need to know a bit more about the nutritional content of the pizza and donuts you'll be eating. Could you please tell me how many calories and how much fat there is in one pizza and one donut?"
+        },
+        {
+            "role": "client",
+            "message": "Each pizza contains 300 calories and 10 grams of fat. Each donut contains 200 calories and 7 grams of fat."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful information! Now, is there a limit to how many pizzas and donuts you can eat in a day? Or perhaps a minimum number you'd like to consume?"
+        },
+        {
+            "role": "client",
+            "message": "I don't have a limit on the number of pizzas and donuts, but I want to minimize costs."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me the cost of one pizza and one donut?"
+        },
+        {
+            "role": "client",
+            "message": "One pizza costs $4 and one donut costs $2."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, is there a specific ratio or proportion of pizzas to donuts that you'd like to maintain? Or can you eat any combination of pizzas and donuts as long as you meet your calorie and fat goals?"
+        },
+        {
+            "role": "client",
+            "message": "I can eat any combination of pizzas and donuts as long as I meet my calorie and fat goals."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific budget you have for your daily food expenses? Or perhaps a maximum amount you're willing to spend each day on pizzas and donuts?"
+        },
+        {
+            "role": "client",
+            "message": "I don't have a specific budget, but I want to minimize my daily food expenses."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a specific time frame in which you need to achieve your weight gain goal? Or perhaps a minimum number of days you plan to follow this diet?"
+        },
+        {
+            "role": "client",
+            "message": "I plan to follow this diet for at least 30 days."
+        },
+        {
+            "role": "agent",
+            "message": "Alright! Now, is there a specific order in which you'd like to eat the pizzas and donuts? Or can you eat them in any order throughout the day?"
+        },
+        {
+            "role": "client",
+            "message": "I can eat them in any order throughout the day."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have any dietary restrictions or health considerations that might affect your ability to consume pizzas and donuts in the quantities required to meet your calorie and fat goals?"
+        },
+        {
+            "role": "client",
+            "message": "No, I don't have any dietary restrictions or health considerations."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a specific type of pizza or donut that you prefer? Or can you eat any type of pizza and donut as long as you meet your calorie and fat goals?"
+        },
+        {
+            "role": "client",
+            "message": "I can eat any type of pizza and donut as long as I meet my calorie and fat goals."
+        },
+        {
+            "role": "agent",
+            "message": "Alright! Now, is there a specific time of day when you prefer to eat your pizzas and donuts? Or can you eat them at any time throughout the day?"
+        },
+        {
+            "role": "client",
+            "message": "I can eat them at any time throughout the day."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have a preference for the taste of pizza or donuts? Or is your primary concern meeting your calorie and fat goals?"
+        },
+        {
+            "role": "client",
+            "message": "My primary concern is meeting my calorie and fat goals. Taste is secondary."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have a preference for the number of meals you eat in a day? Or can you eat any number of meals as long as you meet your calorie and fat goals?"
+        },
+        {
+            "role": "client",
+            "message": "I can eat any number of meals as long as I meet my calorie and fat goals."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have a preference for the size of the pizzas and donuts? Or can they be any size as long as you meet your calorie and fat goals?"
+        },
+        {
+            "role": "client",
+            "message": "They can be any size as long as I meet my calorie and fat goals."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have a preference for the freshness of the pizzas and donuts? Or can they be consumed at any time as long as you meet your calorie and fat goals?"
+        },
+        {
+            "role": "client",
+            "message": "They can be consumed at any time as long as I meet my calorie and fat goals."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have a preference for the brand of the pizzas and donuts? Or can they be from any brand as long as you meet your calorie and fat goals?"
+        },
+        {
+            "role": "client",
+            "message": "They can be from any brand as long as I meet my calorie and fat goals."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have a preference for the texture of the pizzas and donuts? Or can they be of any texture as long as you meet your calorie and fat goals?"
+        },
+        {
+            "role": "client",
+            "message": "They can be of any texture as long as I meet my calorie and fat goals."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have a preference for the temperature of the pizzas and donuts? Or can they be consumed at any temperature as long as you meet your calorie and fat goals?"
+        },
+        {
+            "role": "client",
+            "message": "They can be consumed at any temperature as long as I meet my calorie and fat goals."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have a preference for the location where you buy the pizzas and donuts? Or can they be purchased from any location as long as you meet your calorie and fat goals?"
+        },
+        {
+            "role": "client",
+            "message": "They can be purchased from any location as long as I meet my calorie and fat goals."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have a preference for the method of preparation of the pizzas and donuts? Or can they be prepared in any way as long as you meet your calorie and fat goals?"
+        },
+        {
+            "role": "client",
+            "message": "They can be prepared in any way as long as I meet my calorie and fat goals."
+        }
+    ],
+    "validation": null,
+    "total_tokens": 1570,
+    "temperature": 0,
+    "problem_statement": "An actor needs to gain weight for a role and decides to eat only pizza and donuts. He wants to eat a minimum of 3000 calories per day and at least 200 grams of fat per day. Each pizza costs $4 and contains 300 calories and 10 grams of fat. Each donut costs $2 and contains 200 calories and 7 grams of fat. How many of each should the actor eat to minimize costs?",
+    "summary": null,
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "1138164544"
+}

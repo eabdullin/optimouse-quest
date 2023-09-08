@@ -1,0 +1,117 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to figure out how many full-time tutors and assistant tutors I should hire for the Christmas break within my budget."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like a great plan! To help you figure this out, I'll need some more information. Could you please tell me how much budget you have allocated for hiring tutors and assistant tutors for the Christmas break?"
+        },
+        {
+            "role": "client",
+            "message": "I have a budget of $55000 for hiring tutors and assistant tutors for the Christmas break."
+        },
+        {
+            "role": "agent",
+            "message": "That's a good start! Now, could you please tell me how much you plan to pay each full-time tutor and each assistant tutor for the Christmas break?"
+        },
+        {
+            "role": "client",
+            "message": "I plan to pay each full-time tutor $650 per day and each assistant tutor $120 per day."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me how many days the Christmas break will last? This will help me understand how long you'll need the services of the tutors and assistant tutors."
+        },
+        {
+            "role": "client",
+            "message": "The Christmas break will last for 15 days."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have a specific number of students that need to be tutored during the Christmas break? This will help me understand how many tutors and assistant tutors you might need."
+        },
+        {
+            "role": "client",
+            "message": "I'm expecting to require 1200 hours of teaching availability during the Christmas break."
+        },
+        {
+            "role": "agent",
+            "message": "Could you please tell me how many hours each full-time tutor and each assistant tutor can work per day? This will help me understand how many tutors and assistant tutors you might need to cover the 1200 hours of teaching availability."
+        },
+        {
+            "role": "client",
+            "message": "Each full-time tutor can work 8 hours per day and each assistant tutor can work 4 hours per day."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have a preference for hiring more full-time tutors or assistant tutors? Or is your main goal to maximize the total teaching hours within your budget?"
+        },
+        {
+            "role": "client",
+            "message": "My main goal is to minimize the amount of staff while maximizing the total teaching hours within my budget."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, is there a maximum number of full-time tutors and assistant tutors you can hire, or is the only limit your budget?"
+        },
+        {
+            "role": "client",
+            "message": "The only limit is my budget. There's no maximum number of tutors and assistant tutors I can hire."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, let's summarize the information:\n\n- You have a budget of $55000 for hiring tutors and assistant tutors for the Christmas break.\n- You plan to pay each full-time tutor $650 per day and each assistant tutor $120 per day.\n- The Christmas break will last for 15 days.\n- You're expecting to require 1200 hours of teaching availability during the Christmas break.\n- Each full-time tutor can work 8 hours per day and each assistant tutor can work 4 hours per day.\n- Your main goal is to minimize the amount of staff while maximizing the total teaching hours within your budget.\n\nIs there anything else you would like to add or change in this summary?"
+        },
+        {
+            "role": "client",
+            "message": "I'm sorry, but I don't have the information about the duration of the Christmas break. Can we proceed without this detail?"
+        },
+        {
+            "role": "agent",
+            "message": "Absolutely, we can proceed without the duration of the Christmas break. \n\nCould you please tell me if there's a limit on how many hours a day a student can be tutored? This will help me understand how to distribute the teaching hours among the tutors and assistant tutors."
+        },
+        {
+            "role": "client",
+            "message": "There's no limit on how many hours a day a student can be tutored."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, let's summarize the information:\n\n- You have a budget of $55000 for hiring tutors and assistant tutors.\n- You plan to pay each full-time tutor $650 per day and each assistant tutor $120 per day.\n- You're expecting to require 1200 hours of teaching availability.\n- Each full-time tutor can work 8 hours per day and each assistant tutor can work 4 hours per day.\n- Your main goal is to minimize the amount of staff while maximizing the total teaching hours within your budget.\n\nIs there anything else you would like to add or change in this summary?"
+        },
+        {
+            "role": "client",
+            "message": "That's correct! I believe we have all the necessary information. Thank you for your help."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.41,
+        "Rouge-1: Recall": 0.5061728395061729,
+        "Rouge-1: F1": 0.4530386740331492,
+        "Rouge-2: Precision": 0.23232323232323232,
+        "Rouge-2: Recall": 0.2875,
+        "Rouge-2: F1": 0.2569832402234637,
+        "Rouge-L: Precision": 0.25,
+        "Rouge-L: Recall": 0.30864197530864196,
+        "Rouge-L: F1": 0.2762430939226519,
+        "BERTscore: F1": 0.8857855796813965,
+        "BERTscore: Precision": 0.873498797416687,
+        "BERTscore: Recall": 0.8984229564666748,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1272,
+    "temperature": 0,
+    "problem_statement": "A tutoring company hires full-time tutors and supplements with assistant tutors from a nearby high school. Every day, full-time tutors work 8 hours and get paid $650 while assistant tutors work 4 hours and get paid $120. During Christmas break, the tutoring company expects more interest and plans to require 1200 hours of teaching availability. If the tutoring company has a budget of $55000, how many tutors and assistant tutors should be hired to minimize the amount of staff?",
+    "summary": "Great! Now, let's summarize the information:\n\n- You have a budget of $55000 for hiring tutors and assistant tutors.\n- You plan to pay each full-time tutor $650 per day and each assistant tutor $120 per day.\n- You're expecting to require 1200 hours of teaching availability.\n- Each full-time tutor can work 8 hours per day and each assistant tutor can work 4 hours per day.\n- Your main goal is to minimize the amount of staff while maximizing the total teaching hours within your budget.\n\nIs there anything else you would like to add or change in this summary?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_problem_id": "1367844202",
+    "original_id": "1367844202"
+}

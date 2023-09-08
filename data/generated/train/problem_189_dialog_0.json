@@ -1,0 +1,171 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm Sam, owner of two rice mills. I need help to minimize my costs while fulfilling a restaurant contract for various types of rice."
+        },
+        {
+            "role": "agent",
+            "message": "Hello Sam! It's great to meet you. I'm here to help you find the best way to fulfill your restaurant contract. To start, could you please tell me the different types of rice you need to provide and how much of each type the restaurant requires?"
+        },
+        {
+            "role": "client",
+            "message": "The restaurant requires 25 bags of basmati rice, 20 bags of brown rice, and 20 bags of jasmine rice."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear, Sam. Now, could you please tell me how much each type of rice costs you to produce or purchase, and how much it costs to mill each type?"
+        },
+        {
+            "role": "client",
+            "message": "The cost to operate Mill A is $500 per day and Mill B is $300 per day. The cost of rice is included in these operating costs."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the information, Sam. Could you please tell me how many bags of each type of rice can each mill produce in a day?"
+        },
+        {
+            "role": "client",
+            "message": "Mill A can produce 5 bags of basmati, 7 bags of brown, and 4 bags of jasmine rice per day. Mill B can produce 7 bags of basmati, 10 bags of brown, and 1 bag of jasmine rice per day."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the information, Sam. Now, could you please tell me how many days you have to fulfill the restaurant's order?"
+        },
+        {
+            "role": "client",
+            "message": "I have 7 days to fulfill the restaurant's order."
+        },
+        {
+            "role": "agent",
+            "message": "Great, Sam. Now, is there a limit to how many days each mill can operate in a week? Or can they both operate every day if needed?"
+        },
+        {
+            "role": "client",
+            "message": "Both mills can operate every day if needed. There's no limit on the number of operating days per week."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the information, Sam. Just to clarify, is there a maximum number of bags that each mill can produce in a week? Or can they produce as many bags as needed as long as they operate every day?"
+        },
+        {
+            "role": "client",
+            "message": "There's no maximum limit. They can produce as many bags as needed as long as they operate every day."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the clarification, Sam. Now, could you please tell me if there's a specific order in which the mills need to operate? For example, does Mill A need to operate before Mill B, or can they operate independently of each other?"
+        },
+        {
+            "role": "client",
+            "message": "The mills can operate independently of each other. There's no specific order they need to follow."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the information, Sam. Now, could you please tell me if there's a specific order in which the types of rice need to be produced? For example, does basmati need to be produced before brown or jasmine, or can they be produced in any order?"
+        },
+        {
+            "role": "client",
+            "message": "There's no specific order for producing the types of rice. They can be produced in any order."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the information, Sam. Now, could you please tell me if there's a specific order in which the bags of rice need to be delivered? For example, does the restaurant require all bags of a certain type of rice to be delivered at once, or can they be delivered in batches?"
+        },
+        {
+            "role": "client",
+            "message": "The restaurant is flexible. The bags of rice can be delivered in batches, there's no need to deliver all at once."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the information, Sam. Now, could you please tell me if there's a penalty or cost associated with not fulfilling the restaurant's order on time? For example, is there a late delivery fee or a cost associated with not delivering the full order?"
+        },
+        {
+            "role": "client",
+            "message": "There's no penalty or cost mentioned for late delivery or not fulfilling the order."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the information, Sam. Now, could you please tell me if there's a cost associated with storing the bags of rice? For example, is there a storage fee or a cost associated with keeping the bags of rice for a certain period of time?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no cost associated with storing the bags of rice."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the information, Sam. Now, could you please tell me if there's a cost associated with delivering the bags of rice? For example, is there a delivery fee or a cost associated with transporting the bags of rice to the restaurant?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no cost associated with delivering the bags of rice."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the information, Sam. Now, could you please tell me if there's a cost associated with not using a mill on a certain day? For example, is there a maintenance fee or a cost associated with keeping a mill idle?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no cost associated with not using a mill on a certain day."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the information, Sam. Now, could you please tell me if there's a cost associated with starting up a mill? For example, is there a startup fee or a cost associated with getting a mill ready to operate?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no cost associated with starting up a mill."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the information, Sam. Now, could you please tell me if there's a cost associated with shutting down a mill? For example, is there a shutdown fee or a cost associated with stopping a mill from operating?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no cost associated with shutting down a mill."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the information, Sam. Now, could you please tell me if there's a cost associated with switching the type of rice that a mill is producing? For example, is there a changeover fee or a cost associated with changing from producing basmati to brown or jasmine rice?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no cost associated with switching the type of rice that a mill is producing."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the information, Sam. Now, could you please tell me if there's a cost associated with producing more bags of a certain type of rice than the restaurant requires? For example, is there a surplus fee or a cost associated with producing excess bags of rice?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no cost associated with producing more bags of a certain type of rice than the restaurant requires."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the information, Sam. Now, could you please tell me if there's a cost associated with not producing any bags of a certain type of rice? For example, is there a penalty or a cost associated with not producing any bags of basmati, brown, or jasmine rice?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no cost associated with not producing any bags of a certain type of rice."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the information, Sam. Now, could you please tell me if there's a cost associated with producing less bags of a certain type of rice than the restaurant requires? For example, is there a penalty or a cost associated with not fulfilling the full order of basmati, brown, or jasmine rice?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no cost associated with producing less bags of a certain type of rice than the restaurant requires."
+        }
+    ],
+    "validation": null,
+    "total_tokens": 1925,
+    "temperature": 0,
+    "problem_statement": "Sam owns two rice mills. Mill A costs $500 to operate per day and can produce and deliver 5 bags of basmati rice, 7 bags of brown rice, and 4 bags of jasmine rice. Mill B costs $300 to operate per day and can produce and deliver 7 bags of basmati rice, 10 bags of brown rice, and 1 bag of jasmine rice. Sam recently obtained a contract to provide a restaurant with 25 bags of basmati rice, 20 bags of brown rice, and 20 bags of jasmine rice. Formulate a LP to minimize Sam's total costs.",
+    "summary": null,
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "-1817427063"
+}

@@ -1,0 +1,133 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm looking to optimize my dental firm's employee scheduling within a $65000 budget for an expected 1000 hours of labour."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! To help you better, I need to understand a bit more about your dental firm's operations. Could you please tell me how many types of employees you have (like dentists, dental hygienists, dental assistants, etc.) and what are their hourly rates?"
+        },
+        {
+            "role": "client",
+            "message": "We have two types of employees: dentists and oral hygienists. Dentists are paid $900 per 12-hour shift, while oral hygienists get $250 for a 5-hour shift."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful information. Now, could you please tell me how many hours a day your dental firm operates and how many days a week?"
+        },
+        {
+            "role": "client",
+            "message": "Our dental firm operates 12 hours a day, 7 days a week."
+        },
+        {
+            "role": "agent",
+            "message": "Thank you for the information. Could you please tell me if there are any specific requirements for the number of dentists and oral hygienists that need to be scheduled each day?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, we need at least 20 shifts of dentists to keep the office running."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. And how about oral hygienists? Is there a minimum number of shifts for them as well?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no minimum requirement for oral hygienists. We can adjust their shifts as needed."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me if there are any restrictions on how many shifts a dentist or an oral hygienist can work in a week?"
+        },
+        {
+            "role": "client",
+            "message": "There are no restrictions on how many shifts a dentist or an oral hygienist can work in a week."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me if there are any other constraints or requirements that we need to consider while scheduling the shifts?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other constraints or requirements for scheduling the shifts."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, thank you for providing all the necessary details. Let me summarize the information:\n\n- Your dental firm operates 12 hours a day, 7 days a week.\n- You have two types of employees: dentists and oral hygienists.\n- Dentists are paid $900 per 12-hour shift.\n- Oral hygienists are paid $250 per 5-hour shift.\n- You need at least 20 shifts of dentists to keep the office running.\n- There's no minimum requirement for oral hygienists.\n- There are no restrictions on how many shifts a dentist or an oral hygienist can work in a week.\n- You have a budget of $65000 for an expected 1000 hours of labour.\n\nIs there anything else that I should know or did I miss anything?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, you've got most of the details right. However, our main objective is to minimize the total number of shifts while meeting the labour hours and budget requirements. Also, the operating hours of our dental firm are not specified in the problem."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. To clarify, when you say \"minimize the total number of shifts\", do you mean you want to have the fewest possible number of shifts that still allows you to meet your labour hours and budget requirements?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. We want the fewest number of shifts while meeting our labour and budget requirements."
+        },
+        {
+            "role": "agent",
+            "message": "Thank you for the clarification. Now, could you please tell me if there are any specific requirements or preferences for scheduling the shifts? For example, do you prefer to schedule more shifts during certain times of the day or week?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no specific requirements or preferences for scheduling the shifts."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, thank you for confirming. Now, could you please tell me if there are any specific requirements for the number of hours a dentist or an oral hygienist needs to work in a day? For example, is there a minimum or maximum number of hours they need to work?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no specific requirements for the number of hours a dentist or an oral hygienist needs to work in a day."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me if there are any specific requirements for the number of days a dentist or an oral hygienist needs to work in a week? For example, is there a minimum or maximum number of days they need to work?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no specific requirements for the number of days a dentist or an oral hygienist needs to work in a week."
+        },
+        {
+            "role": "agent",
+            "message": "Thank you for all the information. I believe I have all the details needed to help you optimize your employee scheduling. Here's the summary:\n\n- Your dental firm has two types of employees: dentists and oral hygienists.\n- Dentists are paid $900 per 12-hour shift.\n- Oral hygienists are paid $250 per 5-hour shift.\n- You need at least 20 shifts of dentists to keep the office running.\n- You have a budget of $65000 for an expected 1000 hours of labour.\n- Your main objective is to minimize the total number of shifts while meeting the labour hours and budget requirements.\n\nIs this correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. Thank you for summarizing the details. I look forward to seeing the optimized employee scheduling plan."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.5882352941176471,
+        "Rouge-1: Recall": 0.5882352941176471,
+        "Rouge-1: F1": 0.5882352941176471,
+        "Rouge-2: Precision": 0.37623762376237624,
+        "Rouge-2: Recall": 0.37623762376237624,
+        "Rouge-2: F1": 0.37623762376237624,
+        "Rouge-L: Precision": 0.4411764705882353,
+        "Rouge-L: Recall": 0.4411764705882353,
+        "Rouge-L: F1": 0.4411764705882353,
+        "BERTscore: F1": 0.9006755948066711,
+        "BERTscore: Precision": 0.887270450592041,
+        "BERTscore: Recall": 0.9144920110702515,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1559,
+    "temperature": 0,
+    "problem_statement": "A dental firm hires two types of employees: dentists and oral hygienists. Dentists work 12 hours every shift and oral hygienists work 5 hours every shift. Additionally, dentists are paid $900 per shift while oral hygienists are paid $250 per shift. It is close to Halloween and the dental firm expects more patients coming in. They require 1000 hours of labour. There must be at least 20 shifts of dentist to keep the office running. If there is a budget of $65000, how many of each type of employee should the firm schedule to work to minimize the total number of shifts?",
+    "summary": "Thank you for all the information. I believe I have all the details needed to help you optimize your employee scheduling. Here's the summary:\n\n- Your dental firm has two types of employees: dentists and oral hygienists.\n- Dentists are paid $900 per 12-hour shift.\n- Oral hygienists are paid $250 per 5-hour shift.\n- You need at least 20 shifts of dentists to keep the office running.\n- You have a budget of $65000 for an expected 1000 hours of labour.\n- Your main objective is to minimize the total number of shifts while meeting the labour hours and budget requirements.\n\nIs this correct?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_problem_id": "558300309",
+    "original_id": "558300309"
+}

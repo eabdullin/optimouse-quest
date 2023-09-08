@@ -1,0 +1,101 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to maximize the entertainment hours from my engineering kids kits while managing resources and waste."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like a fun challenge! To help you better, could you please tell me how many different types of engineering kids kits you have?"
+        },
+        {
+            "role": "client",
+            "message": "We have two types of kits: a mechanical kit and a chemistry kit."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me how many hours of entertainment each kit provides?"
+        },
+        {
+            "role": "client",
+            "message": "The mechanical kit entertains a kid for 4 hours, while the chemistry kit entertains for 2 hours."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful to know. Now, could you please tell me how many of each kit you have available?"
+        },
+        {
+            "role": "client",
+            "message": "We have 500 units of plastic and 450 units of materials available to make the kits."
+        },
+        {
+            "role": "agent",
+            "message": "That's a good start. Now, could you please tell me how many units of plastic and materials are required to make each type of kit?"
+        },
+        {
+            "role": "client",
+            "message": "The mechanical kit requires 2 units of plastic and 4 units of materials. The chemistry kit requires 3 units of plastic and 7 units of materials."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me what your main goal is? Are you trying to maximize the total entertainment hours, minimize waste, or something else?"
+        },
+        {
+            "role": "client",
+            "message": "Our main goal is to maximize the total entertainment hours while not exceeding 300 units of waste."
+        },
+        {
+            "role": "agent",
+            "message": "That's a good goal. Now, could you please tell me how many units of waste are produced by each type of kit?"
+        },
+        {
+            "role": "client",
+            "message": "The mechanical kit produces 5 units of waste, while the chemistry kit produces 8 units of waste."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful to know. Now, could you please tell me if there are any other constraints or requirements that we need to consider?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other constraints or requirements to consider."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Let me summarize the information:\n\n- You have two types of engineering kids kits: a mechanical kit and a chemistry kit.\n- The mechanical kit provides 4 hours of entertainment, requires 2 units of plastic and 4 units of materials to make, and produces 5 units of waste.\n- The chemistry kit provides 2 hours of entertainment, requires 3 units of plastic and 7 units of materials to make, and produces 8 units of waste.\n- You have 500 units of plastic and 450 units of materials available.\n- Your main goal is to maximize the total entertainment hours while not exceeding 300 units of waste.\n\nIs there anything else you would like to add or change in this summary?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. I believe we have covered all the necessary details. Thank you for your assistance."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.6551724137931034,
+        "Rouge-1: Recall": 0.672566371681416,
+        "Rouge-1: F1": 0.6637554585152838,
+        "Rouge-2: Precision": 0.4260869565217391,
+        "Rouge-2: Recall": 0.4375,
+        "Rouge-2: F1": 0.43171806167400884,
+        "Rouge-L: Precision": 0.45689655172413796,
+        "Rouge-L: Recall": 0.4690265486725664,
+        "Rouge-L: F1": 0.462882096069869,
+        "BERTscore: F1": 0.9059836864471436,
+        "BERTscore: Precision": 0.8960293531417847,
+        "BERTscore: Recall": 0.9161617159843445,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1020,
+    "temperature": 0,
+    "problem_statement": "An engineering kids kit has two sets, a mechanical and chemistry kit. The mechanical kit requires 2 units of plastic, 4 units of materials and entertains a kid for 4 hours. The chemistry kit requires 3 units of plastic, 7 units of materials and entertains a kid for 2 hours. The chemistry kit however produces 8 units of waste while the mechanical kit produces 5 units of waste. The company has available 500 units of plastic and 450 units of materials. If the company has committed to producing at most 300 units of waste, how many of each type of kit should the company make to maximize the number of hours of entertainment?",
+    "summary": "Great! Let me summarize the information:\n\n- You have two types of engineering kids kits: a mechanical kit and a chemistry kit.\n- The mechanical kit provides 4 hours of entertainment, requires 2 units of plastic and 4 units of materials to make, and produces 5 units of waste.\n- The chemistry kit provides 2 hours of entertainment, requires 3 units of plastic and 7 units of materials to make, and produces 8 units of waste.\n- You have 500 units of plastic and 450 units of materials available.\n- Your main goal is to maximize the total entertainment hours while not exceeding 300 units of waste.\n\nIs there anything else you would like to add or change in this summary?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_problem_id": "38885939",
+    "original_id": "38885939"
+}

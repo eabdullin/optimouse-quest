@@ -1,0 +1,171 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to figure out the optimal number of servings of milk and cheese a patient should consume daily to minimize cost."
+        },
+        {
+            "role": "agent",
+            "message": "That's a great question! To help you find the best solution, I need to understand a bit more about the situation. Could you please tell me the cost of a serving of milk and a serving of cheese?"
+        },
+        {
+            "role": "client",
+            "message": "A serving of milk costs $2 and a serving of cheese costs $4."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for sharing the cost details. Now, could you please tell me if there is a specific budget that the patient has for daily consumption of milk and cheese?"
+        },
+        {
+            "role": "client",
+            "message": "The patient needs to get at least 100 grams of calcium and 80 grams of Vitamin D per day."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful information. Could you please tell me how many grams of calcium and Vitamin D are there in a serving of milk and a serving of cheese?"
+        },
+        {
+            "role": "client",
+            "message": "A serving of milk contains 10 grams of calcium and 5 grams of Vitamin D. A serving of cheese contains 8 grams of calcium and 6 grams of Vitamin D."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific budget that the patient has for daily consumption of milk and cheese, or is the goal simply to minimize the cost while meeting the nutritional requirements?"
+        },
+        {
+            "role": "client",
+            "message": "The goal is to minimize the cost while meeting the nutritional requirements. There's no specific budget mentioned."
+        },
+        {
+            "role": "agent",
+            "message": "Are there any restrictions on the number of servings of milk and cheese the patient can consume in a day? For example, can they have as many servings as needed to meet the nutritional requirements, or is there a limit?"
+        },
+        {
+            "role": "client",
+            "message": "There are no restrictions on the number of servings the patient can consume in a day."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a preference for milk or cheese, or are they equally acceptable as long as the nutritional requirements are met?"
+        },
+        {
+            "role": "client",
+            "message": "Both milk and cheese are equally acceptable as long as the nutritional requirements are met."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific time frame within which the patient needs to consume these servings? For example, should they be consumed within a day, or can they be spread out over a week?"
+        },
+        {
+            "role": "client",
+            "message": "The servings should be consumed within a day to meet the daily nutritional requirements."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific order in which the servings of milk and cheese should be consumed? For example, should milk be consumed before cheese, or can they be consumed in any order?"
+        },
+        {
+            "role": "client",
+            "message": "They can be consumed in any order. There's no specific order required."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific time during the day when the patient prefers to consume milk or cheese, or can they be consumed at any time?"
+        },
+        {
+            "role": "client",
+            "message": "They can be consumed at any time of the day. There's no specific time preference."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific health condition or dietary restriction that the patient has which might affect the consumption of milk or cheese? For example, lactose intolerance or a high cholesterol condition?"
+        },
+        {
+            "role": "client",
+            "message": "No, the patient doesn't have any specific health condition or dietary restriction that might affect the consumption of milk or cheese."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific preference for the patient to consume more of one product over the other for reasons other than cost and nutritional content? For example, does the patient prefer the taste of milk over cheese, or vice versa?"
+        },
+        {
+            "role": "client",
+            "message": "No, the patient doesn't have a specific preference for one product over the other. Both are equally acceptable."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific goal for the patient in terms of weight management? For example, are they trying to maintain, gain, or lose weight? This could potentially affect the number of servings they should consume."
+        },
+        {
+            "role": "client",
+            "message": "The patient is not trying to manage weight. The goal is to meet the nutritional requirements."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific time frame within which the patient needs to consume these servings? For example, should they be consumed within a day, or can they be spread out over a week?"
+        },
+        {
+            "role": "client",
+            "message": "The servings should be consumed within a day to meet the daily nutritional requirements."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific time during the day when the patient prefers to consume milk or cheese, or can they be consumed at any time?"
+        },
+        {
+            "role": "client",
+            "message": "They can be consumed at any time of the day. There's no specific time preference."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific goal for the patient in terms of weight management? For example, are they trying to maintain, gain, or lose weight? This could potentially affect the number of servings they should consume."
+        },
+        {
+            "role": "client",
+            "message": "The patient is not trying to manage weight. The goal is to meet the nutritional requirements."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific goal for the patient in terms of weight management? For example, are they trying to maintain, gain, or lose weight? This could potentially affect the number of servings they should consume."
+        },
+        {
+            "role": "client",
+            "message": "The patient is not trying to manage weight. The goal is to meet the nutritional requirements."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific health condition or dietary restriction that the patient has which might affect the consumption of milk or cheese? For example, lactose intolerance or a high cholesterol condition?"
+        },
+        {
+            "role": "client",
+            "message": "No, the patient doesn't have any specific health condition or dietary restriction that might affect the consumption of milk or cheese."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific health condition or dietary restriction that the patient has which might affect the consumption of milk or cheese? For example, lactose intolerance or a high cholesterol condition?"
+        },
+        {
+            "role": "client",
+            "message": "No, the patient doesn't have any specific health condition or dietary restriction that might affect the consumption of milk or cheese."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific preference for the patient to consume more of one product over the other for reasons other than cost and nutritional content? For example, does the patient prefer the taste of milk over cheese, or vice versa?"
+        },
+        {
+            "role": "client",
+            "message": "No, the patient doesn't have a specific preference for one product over the other. Both are equally acceptable."
+        }
+    ],
+    "validation": null,
+    "total_tokens": 1665,
+    "temperature": 0,
+    "problem_statement": "A patient with weak bones has been told to drink milk and eat cheese in order to meet his calcium and vitamin D requirements. In one serving of milk, there are 10 grams of calcium and 5 grams of Vitamin D. In one serving of cheese, there are 8 grams of calcium and 6 grams of vitamin D. The patient must get at least 100 grams of calcium and 80 grams of Vitamin D per day. If a serving of milk costs $2 and a serving of cheese costs $4, how many servings of each should the patient eat to minimize cost?",
+    "summary": null,
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "1101417478"
+}

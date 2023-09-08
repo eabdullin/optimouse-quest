@@ -1,0 +1,84 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello! I'm OptiMouse, here to assist you with solving problems effectively. Could you tell me what kind of problem you'd like to solve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I need help with optimizing the number of textbooks I should print to maximize my profit."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like an interesting task! To help you best, I need to understand more about your situation. Could you tell me what the cost of printing one textbook is?"
+        },
+        {
+            "role": "client",
+            "message": "The profit from a paperback book is $150 USD and from a hardcover book is $200 USD."
+        },
+        {
+            "role": "agent",
+            "message": "Great, so we have the profit margins for the paperback and hardcover books. Now, do we have any limit on the total number of textbooks that can be printed? Similarly, do we have any restrictions on how many of each type (paperback or hardcover) can be printed?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, there are some restrictions. There must be at least three times as many hardcover than paperback textbooks. Also, at least 100 paperback versions must be created."
+        },
+        {
+            "role": "agent",
+            "message": "To make sure we consider all the important factors, could you let me know if there's a maximum number of textbooks that can be produced in total, or if there are any restrictions on your production capacity?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, I sell at least 1000 textbooks every year."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Do we also have any restrictions on the number of hardcover and paperback books that must be printed within this overall amount?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, there must be at least three times as many hardcover than paperback textbooks and at least 100 paperback versions must be created."
+        },
+        {
+            "role": "agent",
+            "message": "Would there be a maximum number for the textbooks, especially the hardcover ones since they need to be at least 3 times the number of paperback books? What's the max number of hardcover books you can print?"
+        },
+        {
+            "role": "client",
+            "message": "I'm not sure about the maximum number of hardcover books I can print."
+        },
+        {
+            "role": "agent",
+            "message": "That's no problem! To summarize what we've discussed:\n\n- You sell at least 1000 textbooks every year.\n- The profit from a paperback book is $150 and from a hardcover book is $200.\n- There must be at least three times as many hardcovers as paperbacks.\n- At least 100 paperback versions must be created.\n\nTo fully shape the solution, we just need one more piece of information. Is there a certain profit target you aim to hit each year? Or, is there a budget limit for printing these textbooks?"
+        },
+        {
+            "role": "client",
+            "message": "I don't have a specific profit target, but I aim to maximize my profit within the constraints of the number of textbooks I can sell and the ratio of hardcover to paperback books."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.4772727272727273,
+        "Rouge-1: Recall": 0.44680851063829785,
+        "Rouge-1: F1": 0.46153846153846156,
+        "Rouge-2: Precision": 0.2413793103448276,
+        "Rouge-2: Recall": 0.22580645161290322,
+        "Rouge-2: F1": 0.23333333333333334,
+        "Rouge-L: Precision": 0.2727272727272727,
+        "Rouge-L: Recall": 0.2553191489361702,
+        "Rouge-L: F1": 0.26373626373626374,
+        "BERTscore: F1": 0.8788729310035706,
+        "BERTscore: Precision": 0.8697950839996338,
+        "BERTscore: Recall": 0.8881423473358154,
+        "GPT-4: Recall": 4,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 938,
+    "temperature": 1,
+    "problem_statement": "Professor ABC sells his economics textbook as paperback or hardcover versions. Paperback books yield a profit of $150 USD whereas hardcover versions yield a profit of $200 USD. Since hardcover versions are more sturdy and contain some extra supplementary materials, there must be at least three times as many hardcover than paperback textbooks. However, because paperback books are less expensive, at least 100 paperback versions must be created. If the professor sells at least 1000 textbooks every year, how many of each version should he request the publisher to print to maximize the profit?",
+    "summary": "That's no problem! To summarize what we've discussed:\n\n- You sell at least 1000 textbooks every year.\n- The profit from a paperback book is $150 and from a hardcover book is $200.\n- There must be at least three times as many hardcovers as paperbacks.\n- At least 100 paperback versions must be created.\n\nTo fully shape the solution, we just need one more piece of information. Is there a certain profit target you aim to hit each year? Or, is there a budget limit for printing these textbooks?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "31495053"
+}

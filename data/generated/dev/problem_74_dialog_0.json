@@ -1,0 +1,157 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to figure out how many coffees and cappuccinos to make to minimize water usage, given certain constraints."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like an interesting challenge! To help you out, I'll need to understand a bit more about your situation. Could you please tell me how much water is used to make one coffee and one cappuccino?"
+        },
+        {
+            "role": "client",
+            "message": "Each coffee uses 2 units of water, while each cappuccino uses 4 units of water."
+        },
+        {
+            "role": "agent",
+            "message": "That's a good start! Now, could you please tell me if there's a maximum amount of water you can use in a day for making coffee and cappuccinos?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, there is a limit. I can only use up to 2600 units of water per day."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, are there any specific requirements or limits on how many coffees or cappuccinos you need to make each day?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, at least thirty percent of drinks must be coffee, but I want to sell more cappuccinos than coffees."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Is there a maximum number of drinks you can make in a day, or is it only limited by the amount of water you can use?"
+        },
+        {
+            "role": "client",
+            "message": "There's no maximum number of drinks, it's only limited by the amount of water I can use."
+        },
+        {
+            "role": "agent",
+            "message": "Are there any other constraints or requirements that I should be aware of, or have we covered everything?"
+        },
+        {
+            "role": "client",
+            "message": "No, we've covered everything. We just need to minimize water usage while meeting these conditions."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, I think I have all the information I need. Let me summarize:\n\n- You make two types of drinks: coffee and cappuccinos.\n- Each coffee uses 2 units of water, and each cappuccino uses 4 units of water.\n- You can use up to 2600 units of water per day.\n- At least thirty percent of the drinks you make must be coffee.\n- You want to make more cappuccinos than coffees each day.\n- There's no maximum number of drinks you can make, as long as you don't exceed your daily water limit.\n\nIs this correct?"
+        },
+        {
+            "role": "client",
+            "message": "I'm sorry, but there seems to be some confusion. We don't have a limit on water usage, but we do have a limit on milk and cream. We purchase a total of 3300 units of milk and 2600 units of cream. Each coffee requires 8 units of milk and 2 units of water, while each cappuccino requires 7 units of cream and 4 units of water. The goal is to minimize the total amount of water needed while meeting the other conditions."
+        },
+        {
+            "role": "agent",
+            "message": "I see, thanks for the clarification. Now, are there any specific requirements or limits on how many coffees or cappuccinos you need to make each day?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, at least thirty percent of drinks must be coffee, but I want to sell more cappuccinos than coffees."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Is there a maximum number of drinks you can make in a day, or is it only limited by the amount of milk, cream, and water you can use?"
+        },
+        {
+            "role": "client",
+            "message": "There's no maximum number of drinks, it's only limited by the amount of milk, cream, and water I can use."
+        },
+        {
+            "role": "agent",
+            "message": "Are there any other constraints or requirements that I should be aware of, or have we covered everything?"
+        },
+        {
+            "role": "client",
+            "message": "No, we've covered everything. We just need to minimize water usage while meeting these conditions."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, I think I have all the information I need. Let me summarize:\n\n- You make two types of drinks: coffee and cappuccinos.\n- Each coffee uses 2 units of water and 8 units of milk.\n- Each cappuccino uses 4 units of water and 7 units of cream.\n- You purchase a total of 3300 units of milk and 2600 units of cream.\n- At least thirty percent of the drinks you make must be coffee.\n- You want to make more cappuccinos than coffees each day.\n- There's no maximum number of drinks you can make, as long as you don't exceed your daily milk, cream, and water limit.\n\nIs this correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. But don't forget that our main goal is to minimize the total amount of water needed."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a specific number of coffees or cappuccinos you aim to sell each day, or is it just as many as possible given the constraints?"
+        },
+        {
+            "role": "client",
+            "message": "It's as many as possible given the constraints."
+        },
+        {
+            "role": "agent",
+            "message": "Are there any specific requirements or limits on how much water you can use each day?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no specific limit on water usage. We just aim to minimize it due to the town's water shortage."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, is there a specific order in which you use the milk and cream? For example, do you use all the milk first for the coffees and then the remaining for the cappuccinos, or vice versa? Or is there no specific order?"
+        },
+        {
+            "role": "client",
+            "message": "There's no specific order. We use milk and cream as needed for each drink."
+        },
+        {
+            "role": "agent",
+            "message": "Do you have a preference for selling more of one type of drink over the other, or is your main goal just to minimize water usage while meeting the other conditions?"
+        },
+        {
+            "role": "client",
+            "message": "My main goal is to minimize water usage while selling more cappuccinos than coffees, but still ensuring at least 30% of drinks are coffee."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, I think I have all the information I need. Let me summarize:\n\n- You make two types of drinks: coffee and cappuccinos.\n- Each coffee uses 2 units of water and 8 units of milk.\n- Each cappuccino uses 4 units of water and 7 units of cream.\n- You purchase a total of 3300 units of milk and 2600 units of cream.\n- At least thirty percent of the drinks you make must be coffee.\n- You want to make more cappuccinos than coffees each day.\n- There's no maximum number of drinks you can make, as long as you don't exceed your daily milk, cream, and water limit.\n- Your main goal is to minimize water usage while meeting the other conditions.\n\nIs this correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. Thank you for summarizing the situation so clearly. I look forward to seeing the solution you come up with to help minimize our water usage."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.5163934426229508,
+        "Rouge-1: Recall": 0.6237623762376238,
+        "Rouge-1: F1": 0.5650224215246638,
+        "Rouge-2: Precision": 0.3140495867768595,
+        "Rouge-2: Recall": 0.38,
+        "Rouge-2: F1": 0.3438914027149321,
+        "Rouge-L: Precision": 0.36885245901639346,
+        "Rouge-L: Recall": 0.44554455445544555,
+        "Rouge-L: F1": 0.40358744394618834,
+        "BERTscore: F1": 0.8923963904380798,
+        "BERTscore: Precision": 0.8770822882652283,
+        "BERTscore: Recall": 0.908254861831665,
+        "GPT-4: Recall": 4,
+        "GPT-4: Precision": 4,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1844,
+    "temperature": 0,
+    "problem_statement": "A popular coffee shop has coffee and cappuccinos. Each coffee requires 8 units of milk and 2 units of water. Each cappuccino requires 7 units of cream and 4 units of water. The coffee shop purchases a total of 3300 units of milk and 2600 units of cream. Regulars like the coffee and at least thirty percent of drinks must be coffee. However, cappuccinos make more profit, and the owner wants to sell more cappuccino than coffee. Since the town is in a water shortage, how many of each drink should be made to minimize the total amount of water needed?",
+    "summary": "Alright, I think I have all the information I need. Let me summarize:\n\n- You make two types of drinks: coffee and cappuccinos.\n- Each coffee uses 2 units of water and 8 units of milk.\n- Each cappuccino uses 4 units of water and 7 units of cream.\n- You purchase a total of 3300 units of milk and 2600 units of cream.\n- At least thirty percent of the drinks you make must be coffee.\n- You want to make more cappuccinos than coffees each day.\n- There's no maximum number of drinks you can make, as long as you don't exceed your daily milk, cream, and water limit.\n- Your main goal is to minimize water usage while meeting the other conditions.\n\nIs this correct?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_problem_id": "-537539268",
+    "original_id": "-537539268"
+}

@@ -1,0 +1,92 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to maximize my sandwich shop's profit by optimizing the production of two types of cheese sandwiches."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like a delicious challenge! To help you out, I'll need to understand a bit more about your sandwich shop. Could you please tell me how much profit you make from each type of cheese sandwich?"
+        },
+        {
+            "role": "client",
+            "message": "Sure, the profit per sandwich A is $5 and the profit per sandwich B is $6."
+        },
+        {
+            "role": "agent",
+            "message": "That's a good start! Now, let's talk about the ingredients. Could you tell me what ingredients are needed for each type of sandwich and how much of each ingredient is used?"
+        },
+        {
+            "role": "client",
+            "message": "Sure, sandwich A requires 3 units of cheddar and 3 units of American cheese. Sandwich B needs 5 units of cheddar and 2 units of American cheese."
+        },
+        {
+            "role": "agent",
+            "message": "Great, we're making progress! Now, could you please tell me how much of each type of cheese you have available to make sandwiches each day?"
+        },
+        {
+            "role": "client",
+            "message": "I have 500 units of cheddar cheese and 400 units of American cheese available each day."
+        },
+        {
+            "role": "agent",
+            "message": "That's very helpful! Now, are there any specific requirements or restrictions on how many of each type of sandwich you need to make each day? For example, do you need to make a minimum number of either sandwich A or sandwich B?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no specific requirements for the number of sandwiches A or B that need to be made each day."
+        },
+        {
+            "role": "agent",
+            "message": "That's good to know. Now, are there any other factors or limitations that we should consider in this situation? For example, is there a limit on the total number of sandwiches you can make in a day, or any other constraints we should know about?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other limitations or constraints that we need to consider."
+        },
+        {
+            "role": "agent",
+            "message": "Great! So, just to confirm, the goal is to maximize the profit from selling sandwiches A and B, correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. The goal is to maximize the profit from selling sandwiches A and B."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, let's summarize the information:\n\n- You own a sandwich shop that sells two types of cheese sandwiches: A and B.\n- The profit per sandwich A is $5 and the profit per sandwich B is $6.\n- Sandwich A requires 3 units of cheddar and 3 units of American cheese.\n- Sandwich B requires 5 units of cheddar and 2 units of American cheese.\n- You have 500 units of cheddar cheese and 400 units of American cheese available each day.\n- There are no specific requirements for the number of sandwiches A or B that need to be made each day.\n- There are no other limitations or constraints that we need to consider.\n\nIs there anything else that I should know or did I miss anything?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, you've got all the details correct. Thank you for your help!"
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.5365853658536586,
+        "Rouge-1: Recall": 0.8048780487804879,
+        "Rouge-1: F1": 0.6439024390243903,
+        "Rouge-2: Precision": 0.4180327868852459,
+        "Rouge-2: Recall": 0.6296296296296297,
+        "Rouge-2: F1": 0.5024630541871922,
+        "Rouge-L: Precision": 0.37398373983739835,
+        "Rouge-L: Recall": 0.5609756097560976,
+        "Rouge-L: F1": 0.448780487804878,
+        "BERTscore: F1": 0.903094470500946,
+        "BERTscore: Precision": 0.8801116943359375,
+        "BERTscore: Recall": 0.9273098111152649,
+        "GPT-4: Recall": 4,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1020,
+    "temperature": 0,
+    "problem_statement": "A sandwich shop specializes in cheese sandwiches and they make two types. Sandwich A requires 3 units of cheddar cheese and 3 units of American cheese. Sandwich B requires 5 units of cheddar cheese and 2 units of American cheese. The shop has 500 units and 400 units of cheddar and American cheese available respectively. If the profit per sandwich A is $5 and the profit per sandwich B is $6, how many of each should the shop make to maximize profit?",
+    "summary": "Alright, let's summarize the information:\n\n- You own a sandwich shop that sells two types of cheese sandwiches: A and B.\n- The profit per sandwich A is $5 and the profit per sandwich B is $6.\n- Sandwich A requires 3 units of cheddar and 3 units of American cheese.\n- Sandwich B requires 5 units of cheddar and 2 units of American cheese.\n- You have 500 units of cheddar cheese and 400 units of American cheese available each day.\n- There are no specific requirements for the number of sandwiches A or B that need to be made each day.\n- There are no other limitations or constraints that we need to consider.\n\nIs there anything else that I should know or did I miss anything?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "-802287095"
+}

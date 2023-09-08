@@ -1,0 +1,141 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to maximize the amount of blood pressure reducing medicine for a patient while managing their glucose levels and stress."
+        },
+        {
+            "role": "agent",
+            "message": "That's a very important task! To help you better, I need to understand a few things. Could you please tell me the maximum amount of blood pressure reducing medicine that can be given to the patient in a day?"
+        },
+        {
+            "role": "client",
+            "message": "I'm sorry, but the problem statement doesn't specify a maximum amount of blood pressure reducing medicine per day."
+        },
+        {
+            "role": "agent",
+            "message": "I see, no problem. Let's move on to the other factors. Could you please tell me how the glucose levels of the patient are affected by the blood pressure reducing medicine?"
+        },
+        {
+            "role": "client",
+            "message": "The blood pressure reducing medicine doesn't directly affect the glucose levels. However, the diabetic pill and shot both reduce glucose levels while also reducing blood pressure."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful to know. Now, could you please tell me how the stress levels of the patient are affected by the blood pressure reducing medicine, the diabetic pill, and the shot?"
+        },
+        {
+            "role": "client",
+            "message": "The diabetic pill provides 0.4 units of stress per dose, and the diabetic shot provides 0.9 units of stress per dose."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, could you please tell me if there is a maximum limit to the amount of stress the patient can handle in a day?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, the patient can handle at most 20 units of stress over a week."
+        },
+        {
+            "role": "agent",
+            "message": "That's good to know. Now, could you please tell me how much each dose of the blood pressure reducing medicine, the diabetic pill, and the shot reduces the blood pressure?"
+        },
+        {
+            "role": "client",
+            "message": "Each dose of the diabetic pill reduces blood pressure by 2 units, and each dose of the diabetic shot reduces it by 3 units."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me how much each dose of the diabetic pill and the shot reduces the glucose levels?"
+        },
+        {
+            "role": "client",
+            "message": "Each dose of the diabetic pill reduces glucose levels by 1 unit, and each dose of the diabetic shot reduces it by 2 units."
+        },
+        {
+            "role": "agent",
+            "message": "That's very helpful. Now, could you please tell me if there is a maximum limit to the amount of glucose the patient can have in a day?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, the patient needs at least 30 units of glucose reducing medicine in a week."
+        },
+        {
+            "role": "agent",
+            "message": "Thank you for all the information. Just to clarify, is there a limit to the number of doses of the diabetic pill and the shot that the patient can take in a week?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, the patient can handle at most 20 units of stress from the medication in a week."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific target for the amount of blood pressure reduction that needs to be achieved in a week?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, the goal is to maximize the amount of blood pressure reducing medicine delivered to the patient in a week."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a limit to the number of doses of the diabetic pill and the shot that the patient can take in a day or a week?"
+        },
+        {
+            "role": "client",
+            "message": "The problem statement doesn't specify a limit on the number of doses per day or week."
+        },
+        {
+            "role": "agent",
+            "message": "Thank you for all the information. Just to make sure I have everything correct, could you please confirm if there is a specific target for the amount of glucose reduction that needs to be achieved in a week?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, the doctor must deliver at least 30 units of glucose reducing medicine in a week."
+        },
+        {
+            "role": "agent",
+            "message": "Thank you for confirming. Now, is there a specific target for the amount of stress reduction that needs to be achieved in a week?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no specific target for stress reduction. The goal is to not exceed 20 units of stress in a week."
+        },
+        {
+            "role": "agent",
+            "message": "Thank you for all the information. I believe I have all the details I need. Let me summarize:\n\n- The patient needs to receive as much blood pressure reducing medicine as possible in a week.\n- Each dose of the diabetic pill reduces blood pressure by 2 units and glucose levels by 1 unit, and causes 0.4 units of stress.\n- Each dose of the diabetic shot reduces blood pressure by 3 units and glucose levels by 2 units, and causes 0.9 units of stress.\n- The patient can handle at most 20 units of stress in a week.\n- The doctor must deliver at least 30 units of glucose reducing medicine in a week.\n\nIs this correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. You've summarized the situation accurately. Thank you for your help!"
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.6260869565217392,
+        "Rouge-1: Recall": 0.5806451612903226,
+        "Rouge-1: F1": 0.6025104602510462,
+        "Rouge-2: Precision": 0.3508771929824561,
+        "Rouge-2: Recall": 0.3252032520325203,
+        "Rouge-2: F1": 0.33755274261603374,
+        "Rouge-L: Precision": 0.3826086956521739,
+        "Rouge-L: Recall": 0.3548387096774194,
+        "Rouge-L: F1": 0.3682008368200837,
+        "BERTscore: F1": 0.8908596038818359,
+        "BERTscore: Precision": 0.8816356062889099,
+        "BERTscore: Recall": 0.900278627872467,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1410,
+    "temperature": 0,
+    "problem_statement": "A doctor can prescribe two types of medication for high glucose levels, a diabetic pill and a diabetic shot. Per dose, diabetic pill delivers 1 unit of glucose reducing medicine and 2 units of blood pressure reducing medicine. Per dose, a diabetic shot delivers 2 units of glucose reducing medicine and 3 units of blood pressure reducing medicine. In addition, diabetic pills provide 0.4 units of stress and the diabetic shot provides 0.9 units of stress. At most 20 units of stress can be applied over a week and the doctor must deliver at least 30 units of glucose reducing medicine. How many doses of each should be delivered to maximize the amount of blood pressure reducing medicine delivaered to the patient?",
+    "summary": "Thank you for all the information. I believe I have all the details I need. Let me summarize:\n\n- The patient needs to receive as much blood pressure reducing medicine as possible in a week.\n- Each dose of the diabetic pill reduces blood pressure by 2 units and glucose levels by 1 unit, and causes 0.4 units of stress.\n- Each dose of the diabetic shot reduces blood pressure by 3 units and glucose levels by 2 units, and causes 0.9 units of stress.\n- The patient can handle at most 20 units of stress in a week.\n- The doctor must deliver at least 30 units of glucose reducing medicine in a week.\n\nIs this correct?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_problem_id": "-206261087",
+    "original_id": "-206261087"
+}

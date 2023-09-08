@@ -1,0 +1,108 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm a pharmacist looking to mix two drugs in a cost-effective way while meeting certain requirements for pain killer and fever reliever units."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like an important task! To help you better, could you please tell me the names of the two drugs you're planning to mix?"
+        },
+        {
+            "role": "client",
+            "message": "The two drugs I'm planning to mix are Drug A and Drug B."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me how many units of pain killer and fever reliever are there in each unit of Drug A and Drug B?"
+        },
+        {
+            "role": "client",
+            "message": "Each unit of Drug A contains 3 units of pain killer and 2.5 units of fever reliever. Drug B contains 2 units of pain killer and 3.5 units of fever reliever per unit."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful information. Now, could you please tell me the cost of each unit of Drug A and Drug B?"
+        },
+        {
+            "role": "client",
+            "message": "Each unit of Drug A costs $0.50 and each unit of Drug B costs $0.30."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me the minimum units of pain killer and fever reliever you need to achieve in the mix?"
+        },
+        {
+            "role": "client",
+            "message": "I need to achieve at least 5 units of pain killer and 12 units of fever reliever in the mix."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a limit to the number of units of Drug A and Drug B you can use in the mix?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no limit to the number of units of Drug A and Drug B I can use in the mix."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific budget you need to stay within for the total cost of the mix?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no specific budget I need to stay within for the total cost of the mix."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a specific requirement on the total number of units in the mix or can it be any amount as long as it meets the minimum units of pain killer and fever reliever?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no specific requirement on the total number of units in the mix."
+        },
+        {
+            "role": "agent",
+            "message": "Great! So, to clarify, your goal is to find the least costly mix of Drug A and Drug B that meets or exceeds the required units of pain killer and fever reliever. Is that correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. I want to minimize the cost while meeting the required units of pain killer and fever reliever."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, let me summarize the information to make sure I've got everything:\n\n- You're looking to mix Drug A and Drug B.\n- Each unit of Drug A contains 3 units of pain killer and 2.5 units of fever reliever, and costs $0.50.\n- Each unit of Drug B contains 2 units of pain killer and 3.5 units of fever reliever, and costs $0.30.\n- You need to achieve at least 5 units of pain killer and 12 units of fever reliever in the mix.\n- There's no limit to the number of units of Drug A and Drug B you can use in the mix.\n- There's no specific budget you need to stay within for the total cost of the mix.\n- There's no specific requirement on the total number of units in the mix.\n\nSo, your goal is to find the least costly mix of Drug A and Drug B that meets or exceeds the required units of pain killer and fever reliever. Is that correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. You've summarized my problem perfectly. Thank you for your help, OptiMouse!"
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.42105263157894735,
+        "Rouge-1: Recall": 0.6857142857142857,
+        "Rouge-1: F1": 0.5217391304347826,
+        "Rouge-2: Precision": 0.2411764705882353,
+        "Rouge-2: Recall": 0.3942307692307692,
+        "Rouge-2: F1": 0.29927007299270075,
+        "Rouge-L: Precision": 0.23391812865497075,
+        "Rouge-L: Recall": 0.38095238095238093,
+        "Rouge-L: F1": 0.2898550724637681,
+        "BERTscore: F1": 0.8788653612136841,
+        "BERTscore: Precision": 0.8645203709602356,
+        "BERTscore: Recall": 0.8936943411827087,
+        "GPT-4: Recall": 4,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1192,
+    "temperature": 0,
+    "problem_statement": "A pharmacist wants to mix two drugs in such a way to create a mixture that contains at least 5 units of pain killer and 12 units of fever reliever. The amount of pain killer and fever reliever in drug A is 3 units/mg and 2.5 units/mg respectively. On the other hand, the amount of pain killer and fever reliever in drug B is 2 units/mg and 3.5 units/mg respectively. It costs $0.50 per mg to purchase drug A and $0.30 per mg to purchase drug B. Formulate a LP to minimize cost of such a mixture.",
+    "summary": "Alright, let me summarize the information to make sure I've got everything:\n\n- You're looking to mix Drug A and Drug B.\n- Each unit of Drug A contains 3 units of pain killer and 2.5 units of fever reliever, and costs $0.50.\n- Each unit of Drug B contains 2 units of pain killer and 3.5 units of fever reliever, and costs $0.30.\n- You need to achieve at least 5 units of pain killer and 12 units of fever reliever in the mix.\n- There's no limit to the number of units of Drug A and Drug B you can use in the mix.\n- There's no specific budget you need to stay within for the total cost of the mix.\n- There's no specific requirement on the total number of units in the mix.\n\nSo, your goal is to find the least costly mix of Drug A and Drug B that meets or exceeds the required units of pain killer and fever reliever. Is that correct?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "1804684770"
+}

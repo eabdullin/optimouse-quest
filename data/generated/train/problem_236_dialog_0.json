@@ -1,0 +1,124 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm a movie producer looking to maximize my earnings from investing $500,000 in an action and an animation movie."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like an exciting venture! To help you make the best decision, I need to understand a bit more about your situation. Could you please tell me what the expected return on investment (ROI) is for each type of movie?"
+        },
+        {
+            "role": "client",
+            "message": "The expected ROI for the action movie is 9% and for the animation movie, it's 6%."
+        },
+        {
+            "role": "agent",
+            "message": "That's a good start. Now, are there any specific proportions or amounts you have in mind for investing in the action and animation movies? For example, do you want to invest a certain percentage or amount in one type of movie over the other?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, I've decided to invest at least three times as much in the animation movie than in the action movie."
+        },
+        {
+            "role": "agent",
+            "message": "That's a great strategy! Now, are there any other conditions or restrictions that you have in mind for this investment? For example, is there a minimum or maximum amount you want to invest in either type of movie?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, the amount invested in the animation movie can be at most $400,000."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Now, is there a minimum amount you want to invest in the action movie?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no minimum amount for the action movie."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, let's talk about your goal. You mentioned that you want to maximize your earnings. So, would it be correct to say that your main goal is to get the highest possible return on your total investment of $500,000?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. I want to maximize my return on the total investment."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, I think I have all the information I need. Just to confirm, are there any other conditions or restrictions that you haven't mentioned yet?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other conditions or restrictions."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Let's summarize the information:\n\n- You have a total of $500,000 to invest in an action movie and an animation movie.\n- The expected return on investment (ROI) for the action movie is 9% and for the animation movie, it's 6%.\n- You want to invest at least three times as much in the animation movie than in the action movie.\n- The amount invested in the animation movie can be at most $400,000.\n- There's no minimum amount for the action movie.\n- Your main goal is to maximize your return on the total investment.\n\nDoes this accurately represent your situation?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. However, there's an implied minimum investment for the action movie because I want to invest at least three times as much in the animation movie. Also, there's no maximum limit mentioned for the action movie investment."
+        },
+        {
+            "role": "agent",
+            "message": "You're absolutely right. Given that you want to invest at least three times as much in the animation movie than in the action movie, there's an implied minimum investment for the action movie. Also, since there's no specific limit mentioned for the action movie, we can assume that you can invest any amount in it, as long as it doesn't exceed the total investment of $500,000. Is that correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, let's summarize the information:\n\n- You have a total of $500,000 to invest in an action movie and an animation movie.\n- The expected return on investment (ROI) for the action movie is 9% and for the animation movie, it's 6%.\n- You want to invest at least three times as much in the animation movie than in the action movie.\n- The amount invested in the animation movie can be at most $400,000.\n- The investment in the action movie should not exceed the total investment of $500,000.\n- Your main goal is to maximize your return on the total investment.\n\nDoes this accurately represent your situation?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. However, there's an implied minimum investment for the action movie because I want to invest at least three times as much in the animation movie. Also, there's no maximum limit mentioned for the action movie investment."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Given that you want to invest at least three times as much in the animation movie than in the action movie, there's an implied minimum investment for the action movie. Also, since there's no specific limit mentioned for the action movie, we can assume that you can invest any amount in it, as long as it doesn't exceed the total investment of $500,000. Is that correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, let's summarize the information:\n\n- You have a total of $500,000 to invest in an action movie and an animation movie.\n- The expected return on investment (ROI) for the action movie is 9% and for the animation movie, it's 6%.\n- You want to invest at least three times as much in the animation movie than in the action movie.\n- The amount invested in the animation movie can be at most $400,000.\n- The investment in the action movie should not exceed the total investment of $500,000.\n- Your main goal is to maximize your return on the total investment.\n\nDoes this accurately represent your situation?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. Thank you for summarizing my situation. I appreciate your help."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.4954128440366973,
+        "Rouge-1: Recall": 0.6585365853658537,
+        "Rouge-1: F1": 0.5654450261780105,
+        "Rouge-2: Precision": 0.3611111111111111,
+        "Rouge-2: Recall": 0.48148148148148145,
+        "Rouge-2: F1": 0.4126984126984127,
+        "Rouge-L: Precision": 0.42201834862385323,
+        "Rouge-L: Recall": 0.5609756097560976,
+        "Rouge-L: F1": 0.4816753926701571,
+        "BERTscore: F1": 0.8980658650398254,
+        "BERTscore: Precision": 0.8796349763870239,
+        "BERTscore: Recall": 0.9172857403755188,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 4,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1554,
+    "temperature": 0,
+    "problem_statement": "A movie producer has $500000 to invest in two movies, an action movie and an animation. She has decided to invest at least three times as much money in the animation movie than in the action movie. However the amount invested in the animation movie can be at most $400000. If the money invested in the action movie earns 9% and the money invested in the animation movie earns 6%. How much money should she invest in each to maximize her earnings?",
+    "summary": "Great! Now, let's summarize the information:\n\n- You have a total of $500,000 to invest in an action movie and an animation movie.\n- The expected return on investment (ROI) for the action movie is 9% and for the animation movie, it's 6%.\n- You want to invest at least three times as much in the animation movie than in the action movie.\n- The amount invested in the animation movie can be at most $400,000.\n- The investment in the action movie should not exceed the total investment of $500,000.\n- Your main goal is to maximize your return on the total investment.\n\nDoes this accurately represent your situation?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "-192352919"
+}

@@ -1,0 +1,92 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to minimize the weekly payroll for my engineering firm while meeting certain staffing requirements."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like a smart move! To help you better, could you please tell me how many different types of roles or positions are there in your engineering firm?"
+        },
+        {
+            "role": "client",
+            "message": "We have two types of positions in our firm: engineers and interns."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me how much you pay each engineer and each intern per week?"
+        },
+        {
+            "role": "client",
+            "message": "Each engineer earns $3000 per week and each intern earns $750 per week."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, could you please tell me the minimum number of engineers and interns you need to have on staff each week to meet your firm's requirements?"
+        },
+        {
+            "role": "client",
+            "message": "We need at least 100 workers in total, with at least 20 of them being interns."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a maximum number of engineers and interns you can hire each week due to budget or other constraints?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, due to budget constraints, the weekly payroll should not exceed $200,000."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, is there a maximum number of engineers and interns you can hire each week due to other constraints like office space or equipment?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, the number of interns must be at least a third the number of engineers due to our relations with local universities."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, are there any other requirements or constraints that we should consider while minimizing the weekly payroll?"
+        },
+        {
+            "role": "client",
+            "message": "No, those are all the constraints we need to consider for this problem."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Let me summarize the information:\n\n- Your engineering firm has two types of positions: engineers and interns.\n- Each engineer earns $3000 per week and each intern earns $750 per week.\n- You need at least 100 workers in total, with at least 20 of them being interns.\n- The weekly payroll should not exceed $200,000.\n- The number of interns must be at least a third the number of engineers due to your relations with local universities.\n\nIs this correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct! Thank you for your help."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.5512820512820513,
+        "Rouge-1: Recall": 0.581081081081081,
+        "Rouge-1: F1": 0.5657894736842106,
+        "Rouge-2: Precision": 0.37662337662337664,
+        "Rouge-2: Recall": 0.3972602739726027,
+        "Rouge-2: F1": 0.38666666666666666,
+        "Rouge-L: Precision": 0.44871794871794873,
+        "Rouge-L: Recall": 0.47297297297297297,
+        "Rouge-L: F1": 0.46052631578947373,
+        "BERTscore: F1": 0.8979222774505615,
+        "BERTscore: Precision": 0.8822378516197205,
+        "BERTscore: Recall": 0.9141744375228882,
+        "GPT-4: Recall": 4,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 856,
+    "temperature": 0,
+    "problem_statement": "A large engineering firm employs engineers and interns. Engineers earn $3000 per week while interns earn $750 per week. The projects requires at least 100 workers, of whom at least 20 must be interns. To maintain relations with the local universities, the number of interns must be at least a third the number of engineers. The company wants to keep the weekly payroll to be at most $200000. Formulate a LP to minimize wages.",
+    "summary": "Great! Let me summarize the information:\n\n- Your engineering firm has two types of positions: engineers and interns.\n- Each engineer earns $3000 per week and each intern earns $750 per week.\n- You need at least 100 workers in total, with at least 20 of them being interns.\n- The weekly payroll should not exceed $200,000.\n- The number of interns must be at least a third the number of engineers due to your relations with local universities.\n\nIs this correct?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "377178712"
+}

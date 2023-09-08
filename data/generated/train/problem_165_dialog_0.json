@@ -1,0 +1,171 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to maximize the profit from selling vehicle and passenger tickets for my ferry service."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like a great goal! To help you out, I'll need to understand a bit more about your ferry service. Could you please tell me how many passengers and vehicles your ferry can carry at maximum capacity?"
+        },
+        {
+            "role": "client",
+            "message": "My ferry can sell a maximum of 100 tickets. We have a minimum reservation of 10 tickets for vehicles."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful to know. Could you please tell me how much you charge for a passenger ticket and how much for a vehicle ticket?"
+        },
+        {
+            "role": "client",
+            "message": "I charge $50 for both a passenger ticket and a vehicle ticket."
+        },
+        {
+            "role": "agent",
+            "message": "Great, thanks for that information. Now, could you please tell me if there are any restrictions or rules about the number of vehicles versus the number of passengers? For example, does each vehicle require a certain number of passengers, or can a vehicle come on board without any passengers?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, there is a rule. At least 5 times as many people buy passenger tickets than vehicle tickets."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, is there a specific goal you're trying to reach in terms of the total revenue from selling tickets, or are you simply trying to maximize your total revenue without any specific target?"
+        },
+        {
+            "role": "client",
+            "message": "I'm simply trying to maximize my total revenue without any specific target."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. One last thing, are there any other costs or factors that could affect your total revenue that we should consider in this scenario?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other costs or factors that could affect my total revenue."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit to how many vehicle tickets you can sell in a day, or can you sell as many as you want up to the maximum capacity of the ferry?"
+        },
+        {
+            "role": "client",
+            "message": "I can sell as many vehicle tickets as I want up to the maximum capacity of the ferry."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, is there a limit to how many passenger tickets you can sell in a day, or can you sell as many as you want up to the maximum capacity of the ferry?"
+        },
+        {
+            "role": "client",
+            "message": "I can sell as many passenger tickets as I want up to the maximum capacity of the ferry."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit to how many times the ferry can run in a day, or can it make as many trips as needed to accommodate all the ticket sales?"
+        },
+        {
+            "role": "client",
+            "message": "The ferry can make as many trips as needed to accommodate all the ticket sales."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit to how many passengers can be in a vehicle, or can a vehicle carry as many passengers as it wants up to the maximum capacity of the ferry?"
+        },
+        {
+            "role": "client",
+            "message": "There's no limit on passengers per vehicle. They can carry as many as they want."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit to how many vehicles a passenger can bring, or can a passenger bring as many vehicles as they want up to the maximum capacity of the ferry?"
+        },
+        {
+            "role": "client",
+            "message": "A passenger can only bring one vehicle."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit to how many trips the ferry can make in a day, or can it make as many trips as needed to accommodate all the ticket sales?"
+        },
+        {
+            "role": "client",
+            "message": "The ferry can make as many trips as needed to accommodate all the ticket sales."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit to how many trips a passenger can make in a day, or can a passenger make as many trips as they want up to the maximum capacity of the ferry?"
+        },
+        {
+            "role": "client",
+            "message": "A passenger can make as many trips as they want in a day."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit to how many trips a vehicle can make in a day, or can a vehicle make as many trips as it wants up to the maximum capacity of the ferry?"
+        },
+        {
+            "role": "client",
+            "message": "A vehicle can make as many trips as it wants in a day."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit to how many trips a vehicle can make in a day, or can a vehicle make as many trips as it wants up to the maximum capacity of the ferry?"
+        },
+        {
+            "role": "client",
+            "message": "A vehicle can make as many trips as it wants in a day."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit to how many trips a passenger can make in a day, or can a passenger make as many trips as they want up to the maximum capacity of the ferry?"
+        },
+        {
+            "role": "client",
+            "message": "A passenger can make as many trips as they want in a day."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit to how many trips a vehicle can make in a day, or can a vehicle make as many trips as it wants up to the maximum capacity of the ferry?"
+        },
+        {
+            "role": "client",
+            "message": "A vehicle can make as many trips as it wants in a day."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit to how many trips a passenger can make in a day, or can a passenger make as many trips as they want up to the maximum capacity of the ferry?"
+        },
+        {
+            "role": "client",
+            "message": "A passenger can make as many trips as they want in a day."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit to how many trips a vehicle can make in a day, or can a vehicle make as many trips as it wants up to the maximum capacity of the ferry?"
+        },
+        {
+            "role": "client",
+            "message": "A vehicle can make as many trips as it wants in a day."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit to how many trips a passenger can make in a day, or can a passenger make as many trips as they want up to the maximum capacity of the ferry?"
+        },
+        {
+            "role": "client",
+            "message": "A passenger can make as many trips as they want in a day."
+        }
+    ],
+    "validation": null,
+    "total_tokens": 1601,
+    "temperature": 0,
+    "problem_statement": "A ferry service provides vehicle tickets and passenger tickets. The ferry can sell at most 100 tickets. A profit of $50 is made per vehicle ticket and a profit of $50 is made per passenger ticket. The ferry reserved a minimum of 10 tickets for vehicles. However, because most people don't have cars, at least 5 times as may people buy passenger tickets than vehicle tickets. How many of each type should be sold to maximize profit?",
+    "summary": null,
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "-1202875232"
+}

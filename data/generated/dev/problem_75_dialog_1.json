@@ -1,0 +1,140 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello! I'm OptiMouse, here to help you find the best way to achieve your goal. Could you please tell me what you're trying to accomplish?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to figure out the optimal servings of two vitamin supplements to meet my nutritional needs while minimizing drowsiness."
+        },
+        {
+            "role": "agent",
+            "message": "That's a great goal! To help you better, could you tell me how many vitamins each supplement provides and how many vitamins you need per day?"
+        },
+        {
+            "role": "client",
+            "message": "Super vitamin XYZ provides 2 mg of vitamin and 5 mg of fiber per serving, while vitamin ABC provides 1.5 mg of vitamin and 3 mg of fiber per serving. I need at least 30 mg of vitamin and 55 mg of fiber daily."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful information! Now, could you tell me how each of these supplements affects your drowsiness? For example, does taking a certain amount of one supplement make you more drowsy than the other?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, super vitamin XYZ causes 2 units of drowsiness per serving, while vitamin ABC causes 3 units of drowsiness per serving."
+        },
+        {
+            "role": "agent",
+            "message": "Is there any limit on the number of servings you can take from each of these supplements, or can you take as many as you need to meet your nutritional needs?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, there are limits. I can take at most 40% of the supplements from super vitamin XYZ and at least 3 servings of it."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for that information. Lastly, I need to know the limit on the number of servings you can take from vitamin ABC."
+        },
+        {
+            "role": "client",
+            "message": "I can take at most 15 servings of vitamin ABC."
+        },
+        {
+            "role": "agent",
+            "message": "Is there any minimum number of servings you have to take from vitamin ABC?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no minimum number of servings required for vitamin ABC."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, just to confirm, you would like to meet your daily nutritional needs while minimizing drowsiness, correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. I want to meet my daily nutritional needs while minimizing drowsiness."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Let's summarize what we have so far:\n\n- You need at least 30 mg of vitamins and 55 mg of fiber each day.\n- Super vitamin XYZ provides 2 mg of vitamins and 5 mg of fiber per serving, and causes 2 units of drowsiness.\n- Vitamin ABC provides 1.5 mg of vitamins and 3 mg of fiber per serving, and causes 3 units of drowsiness.\n- You can take at most 40% of your supplements from super vitamin XYZ and at least 3 servings of it.\n- You can take at most 15 servings of vitamin ABC, with no minimum serving requirement.\n- Your goal is to meet your nutritional needs while minimizing drowsiness.\n\nDid I capture everything correctly?"
+        },
+        {
+            "role": "client",
+            "message": "I'm sorry, but there seems to be a misunderstanding. There is no maximum limit on the servings of vitamin ABC mentioned. Could you please check the information again?"
+        },
+        {
+            "role": "agent",
+            "message": "I apologize for the confusion. Let's clarify: Is there a maximum or minimum limit on the number of servings you can take from vitamin ABC?"
+        },
+        {
+            "role": "client",
+            "message": "I can take at most 15 servings of vitamin ABC, with no minimum serving requirement."
+        },
+        {
+            "role": "agent",
+            "message": "I see, thank you for clarifying. Now, could you please tell me if there are any other factors or constraints we need to consider while determining the optimal servings of these supplements?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other factors or constraints to consider."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Let's summarize the information:\n\n- You need at least 30 mg of vitamins and 55 mg of fiber each day.\n- Super vitamin XYZ provides 2 mg of vitamins and 5 mg of fiber per serving, and causes 2 units of drowsiness.\n- You can take at least 3 servings and at most 40% of your total servings from super vitamin XYZ.\n- Vitamin ABC provides 1.5 mg of vitamins and 3 mg of fiber per serving, and causes 3 units of drowsiness.\n- You can take at most 15 servings of vitamin ABC, with no minimum serving requirement.\n- Your goal is to meet your nutritional needs while minimizing drowsiness.\n\nDid I capture everything correctly?"
+        },
+        {
+            "role": "client",
+            "message": "I apologize for the confusion earlier, but there's no maximum limit on the servings of vitamin ABC mentioned. The rest of the information is correct."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. To ensure I have all the details, could you please confirm if there's any maximum or minimum limit on the total number of servings you can take from both supplements combined?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no maximum or minimum limit on the total number of servings from both supplements combined."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, thank you for confirming. Now, in terms of drowsiness, is there a maximum amount that you can tolerate in a day, or is your goal simply to minimize it as much as possible?"
+        },
+        {
+            "role": "client",
+            "message": "My goal is to minimize drowsiness as much as possible. There's no specific maximum amount that I can tolerate."
+        },
+        {
+            "role": "agent",
+            "message": "Perfect! Let's summarize the information:\n\n- You need at least 30 mg of vitamins and 55 mg of fiber each day.\n- Super vitamin XYZ provides 2 mg of vitamins and 5 mg of fiber per serving, and causes 2 units of drowsiness. You can take at least 3 servings and at most 40% of your total servings from this supplement.\n- Vitamin ABC provides 1.5 mg of vitamins and 3 mg of fiber per serving, and causes 3 units of drowsiness. You can take as many servings as needed from this supplement, with no maximum or minimum limit.\n- Your goal is to meet your nutritional needs while minimizing drowsiness as much as possible.\n\nIs this correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. Thank you for summarizing the information. I appreciate your help."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.5948275862068966,
+        "Rouge-1: Recall": 0.5798319327731093,
+        "Rouge-1: F1": 0.5872340425531916,
+        "Rouge-2: Precision": 0.3565217391304348,
+        "Rouge-2: Recall": 0.3474576271186441,
+        "Rouge-2: F1": 0.351931330472103,
+        "Rouge-L: Precision": 0.31896551724137934,
+        "Rouge-L: Recall": 0.31092436974789917,
+        "Rouge-L: F1": 0.3148936170212766,
+        "BERTscore: F1": 0.8981193900108337,
+        "BERTscore: Precision": 0.8910424709320068,
+        "BERTscore: Recall": 0.9053095579147339,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1664,
+    "temperature": 1,
+    "problem_statement": "A woman with vitamin deficiency is taking supplements from two brands, super vitamin XYZ and vitamin ABC. Super vitamin XYZ contains 2 mg of vitamin, 5 mg of fiber, and causes 2 units of drowsiness per serving. Vitamin ABC contains 1.5 mg of vitamin, 3 mg of fiber, and causes 3 units of drowsiness per serving. The woman wants to get at least 30 mg of vitamin and 55 mg of fiber. In addition, there must be at most 40% of the supplements taken from super vitamin XYZ and there must be at least 3 servings of super vitamin XYZ because it is expiring soon. How many servings of each should she take to minimize her total drowsiness.",
+    "summary": "Perfect! Let's summarize the information:\n\n- You need at least 30 mg of vitamins and 55 mg of fiber each day.\n- Super vitamin XYZ provides 2 mg of vitamins and 5 mg of fiber per serving, and causes 2 units of drowsiness. You can take at least 3 servings and at most 40% of your total servings from this supplement.\n- Vitamin ABC provides 1.5 mg of vitamins and 3 mg of fiber per serving, and causes 3 units of drowsiness. You can take as many servings as needed from this supplement, with no maximum or minimum limit.\n- Your goal is to meet your nutritional needs while minimizing drowsiness as much as possible.\n\nIs this correct?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "1947901559"
+}

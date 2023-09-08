@@ -1,0 +1,100 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to figure out the optimal number of small and large teams to form in my company to minimize costs."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like a great idea! To help you better, could you please tell me what the costs associated with forming a small team and a large team are?"
+        },
+        {
+            "role": "client",
+            "message": "A small team can perform 8 tasks per hour, requires 1 supervisor, and costs $5000. A large team can perform 20 tasks per hour, requires 3 supervisors, and costs $15000."
+        },
+        {
+            "role": "agent",
+            "message": "That's a good start. Now, could you please tell me how many tasks in total your company needs to perform per hour?"
+        },
+        {
+            "role": "client",
+            "message": "We need to complete 100 tasks per hour."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me how many supervisors are available in total?"
+        },
+        {
+            "role": "client",
+            "message": "We have a maximum of 10 supervisors available."
+        },
+        {
+            "role": "agent",
+            "message": "Thank you for the information. Could you please tell me what is the maximum budget your company has for forming these teams?"
+        },
+        {
+            "role": "client",
+            "message": "Our maximum budget for forming these teams is $50,000."
+        },
+        {
+            "role": "agent",
+            "message": "Thank you for the information. Could you please tell me if there are any restrictions on the number of small or large teams that can be formed?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no restrictions on the number of small or large teams that can be formed."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me if there are any other factors or constraints that we should consider while forming these teams?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other factors or constraints to consider."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, I believe I have all the information I need. Let me summarize:\n\n- Your company needs to complete 100 tasks per hour.\n- A small team can perform 8 tasks per hour, requires 1 supervisor, and costs $5000.\n- A large team can perform 20 tasks per hour, requires 3 supervisors, and costs $15000.\n- You have a maximum of 10 supervisors available.\n- Your maximum budget for forming these teams is $50,000.\n- There are no restrictions on the number of small or large teams that can be formed.\n\nIs there anything else you would like to add or modify in this summary?"
+        },
+        {
+            "role": "client",
+            "message": "Actually, there's a slight mistake. The problem statement doesn't mention a maximum budget for forming these teams. So, we don't have a budget constraint. Other than that, everything else is correct."
+        },
+        {
+            "role": "agent",
+            "message": "I see, thank you for the correction. So, to summarize:\n\n- Your company needs to complete 100 tasks per hour.\n- A small team can perform 8 tasks per hour, requires 1 supervisor, and costs $5000.\n- A large team can perform 20 tasks per hour, requires 3 supervisors, and costs $15000.\n- You have a maximum of 10 supervisors available.\n- There are no restrictions on the number of small or large teams that can be formed.\n\nIs this correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. Thank you for summarizing the information. I look forward to hearing your suggestions on how to form the teams."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.6447368421052632,
+        "Rouge-1: Recall": 0.5764705882352941,
+        "Rouge-1: F1": 0.6086956521739131,
+        "Rouge-2: Precision": 0.4533333333333333,
+        "Rouge-2: Recall": 0.40476190476190477,
+        "Rouge-2: F1": 0.4276729559748428,
+        "Rouge-L: Precision": 0.5131578947368421,
+        "Rouge-L: Recall": 0.4588235294117647,
+        "Rouge-L: F1": 0.48447204968944096,
+        "BERTscore: F1": 0.905953586101532,
+        "BERTscore: Precision": 0.8981038928031921,
+        "BERTscore: Recall": 0.9139418005943298,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1075,
+    "temperature": 0,
+    "problem_statement": "In a company, two types of teams can be formed: a small team and a large team. A small team can preform 8 tasks per hour, requires 1 supervisor, and costs $5000. A large team can preform 20 tasks per hour, requires 3 supervisors, and costs $15000. The company wants to competes 100 tasks per hour with a maximum of 10 supervisors. How many of each type of team, small and large, need to be formed in order to minimize cost and meet the requirements?",
+    "summary": "I see, thank you for the correction. So, to summarize:\n\n- Your company needs to complete 100 tasks per hour.\n- A small team can perform 8 tasks per hour, requires 1 supervisor, and costs $5000.\n- A large team can perform 20 tasks per hour, requires 3 supervisors, and costs $15000.\n- You have a maximum of 10 supervisors available.\n- There are no restrictions on the number of small or large teams that can be formed.\n\nIs this correct?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "928775045"
+}

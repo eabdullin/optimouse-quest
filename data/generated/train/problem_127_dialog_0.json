@@ -1,0 +1,76 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to minimize the cost of my daily intake of iron and biotin supplements, Alpha and Beta."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! To help you better, could you please tell me how much iron and biotin are there in each of the Alpha and Beta supplements?"
+        },
+        {
+            "role": "client",
+            "message": "Sure! A scoop of Alpha contains 5 grams of iron and 20 grams of biotin. A scoop of Beta contains 10 grams of iron and 3 grams of biotin."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful information! Now, could you please tell me how much iron and biotin you need to consume daily?"
+        },
+        {
+            "role": "client",
+            "message": "I need to consume at least 50 grams of iron and 40 grams of biotin daily."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me the cost of each scoop of Alpha and Beta supplements?"
+        },
+        {
+            "role": "client",
+            "message": "The cost per scoop of Alpha is $1 and the cost per scoop of Beta is $2."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a limit to how many scoops of Alpha and Beta you can or want to consume daily?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no limit to how many scoops of Alpha and Beta I can consume daily."
+        },
+        {
+            "role": "agent",
+            "message": "Great! So, to summarize:\n\n- You need to consume at least 50 grams of iron and 40 grams of biotin daily.\n- A scoop of Alpha supplement, costing $1, contains 5 grams of iron and 20 grams of biotin.\n- A scoop of Beta supplement, costing $2, contains 10 grams of iron and 3 grams of biotin.\n- There's no limit to how many scoops of Alpha and Beta you can consume daily.\n\nYour goal is to minimize the cost of your daily intake of these supplements. Is that correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct! I appreciate your help in figuring this out."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.632183908045977,
+        "Rouge-1: Recall": 0.625,
+        "Rouge-1: F1": 0.6285714285714286,
+        "Rouge-2: Precision": 0.45348837209302323,
+        "Rouge-2: Recall": 0.4482758620689655,
+        "Rouge-2: F1": 0.45086705202312144,
+        "Rouge-L: Precision": 0.42528735632183906,
+        "Rouge-L: Recall": 0.42045454545454547,
+        "Rouge-L: F1": 0.4228571428571428,
+        "BERTscore: F1": 0.9050911664962769,
+        "BERTscore: Precision": 0.8957492113113403,
+        "BERTscore: Recall": 0.9146300554275513,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 819,
+    "temperature": 0,
+    "problem_statement": "Jane goes to a supplement store that sells two powders, Alpha and Beta, for iron and biotin. The cost per scoop of alpha is $1 while the cost per scoop of Beta is $2. A scoop of Alpha contains 5 grams of iron and 20 grams of biotin. A scoop of Beta contains 10 grams if iron and 3 grams of biotin. A doctor has recommended that Jane takes at least 50 grams of iron and 40 grams of biotin daily. Formulate as a LP to minimize cost.",
+    "summary": "Great! So, to summarize:\n\n- You need to consume at least 50 grams of iron and 40 grams of biotin daily.\n- A scoop of Alpha supplement, costing $1, contains 5 grams of iron and 20 grams of biotin.\n- A scoop of Beta supplement, costing $2, contains 10 grams of iron and 3 grams of biotin.\n- There's no limit to how many scoops of Alpha and Beta you can consume daily.\n\nYour goal is to minimize the cost of your daily intake of these supplements. Is that correct?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "-590492809"
+}

@@ -1,0 +1,84 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! My name is OptiMouse, I'm here to help. Let's say, in your day-to-day life, you want to make the best out of something, like earning the most money or using the least resources. What would that be?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I run a furniture store selling dining tables and chairs and I'm looking to maximize my profit."
+        },
+        {
+            "role": "agent",
+            "message": "Great, happy to assist with your furniture profit maximization. A crucial point is the profit made on each item sold. Could you tell me how much profit you make selling one dining table and how much for one chair?"
+        },
+        {
+            "role": "client",
+            "message": "The profit per dining table is $350 and the profit per chair is $75."
+        },
+        {
+            "role": "agent",
+            "message": "That's a good start! Now to make the best of your business, we also need to understand the limiting factors. Are there any factors that restrict the number of tables or chairs you can sell, like store capacity or customer demand?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, there are some constraints. I have 500 sq ft of space available. A dining table requires 8 sq ft and a chair requires 2 sq ft."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for the space constraints! \n\nDo you also have a limit on the quantity of furniture you can produce or buy for resale due to budget, supply, or production limitations?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, I can't have more than $20000 worth of capital tied up at any time. A dining table ties up $1000 and a chair ties up $150."
+        },
+        {
+            "role": "agent",
+            "message": "That's very helpful! Another factor to consider \u2013 are there any preferences or limitations on how many tables, chairs or a combination of both you want to or can sell? For instance, do tables and chairs normally sell in certain ratios or sets?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, because chairs sell in larger quantities, at least 70% of all furniture in the store must be chairs."
+        },
+        {
+            "role": "agent",
+            "message": "Thanks for that detail! Given all this, are there any other specifics or limitations to consider? Perhaps there are certain targets you need to meet, such as a minimum amount of sales/profit or any other restrictions?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other specifics or limitations to consider."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Let's review all the information we have:\n\n- You run a furniture store selling dining tables and chairs.\n- The profit per dining table sold is $350 and the profit per chair sold is $75.\n- You have 500 sq ft of space available in the store.\n- A dining table requires 8 sq ft of space and a chair requires 2 sq ft of square space.\n- You can't have more than $20000 worth of capital tied up at any time in inventory.\n- A dining table ties up $1000 of capital and a chair ties up $150 of capital.\n- At least 70% of all furniture in the store must be chairs due to their higher sale frequency.\n\nWith this information, we can now come up with the best strategy to maximize your profit considering all the constraints. Do you want us to proceed with these inputs?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, please proceed with these inputs. I'm looking forward to hearing your strategy for maximizing my profit."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.593103448275862,
+        "Rouge-1: Recall": 0.7818181818181819,
+        "Rouge-1: F1": 0.6745098039215686,
+        "Rouge-2: Precision": 0.4652777777777778,
+        "Rouge-2: Recall": 0.6146788990825688,
+        "Rouge-2: F1": 0.5296442687747035,
+        "Rouge-L: Precision": 0.4413793103448276,
+        "Rouge-L: Recall": 0.5818181818181818,
+        "Rouge-L: F1": 0.5019607843137255,
+        "BERTscore: F1": 0.9133272767066956,
+        "BERTscore: Precision": 0.8957053422927856,
+        "BERTscore: Recall": 0.9316564798355103,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1057,
+    "temperature": 1,
+    "problem_statement": "A furniture store only stocks and sells dining tables and chairs. The profit per dining table is $350 and the profit per chair is $75. There is 500 sq ft of space available and a dining table requires 8 sq ft of floor space while a chair requires 2 sq ft. Because chairs sell in larger quantities, at least 70% of all furniture in the store must be chairs. In terms of capital, a dining table ties up $1000 in capital and a chair ties up $150 in capital. The company wants a maximum of $20000 worth of capital tied up at any time. Formulate an LP to maximize profit.",
+    "summary": "Great! Let's review all the information we have:\n\n- You run a furniture store selling dining tables and chairs.\n- The profit per dining table sold is $350 and the profit per chair sold is $75.\n- You have 500 sq ft of space available in the store.\n- A dining table requires 8 sq ft of space and a chair requires 2 sq ft of square space.\n- You can't have more than $20000 worth of capital tied up at any time in inventory.\n- A dining table ties up $1000 of capital and a chair ties up $150 of capital.\n- At least 70% of all furniture in the store must be chairs due to their higher sale frequency.\n\nWith this information, we can now come up with the best strategy to maximize your profit considering all the constraints. Do you want us to proceed with these inputs?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "892653388"
+}

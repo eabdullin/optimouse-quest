@@ -1,0 +1,188 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I can assist you in making the best decision based on your specific circumstances. Could you please tell me what situation or problem you're trying to find the best solution for?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I need help optimizing my milk delivery schedule to minimize delivery time and reduce pollution."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like a great initiative! To help you out, I need to understand a few more details. Could you please tell me how many delivery vehicles or routes you currently have for your milk delivery?"
+        },
+        {
+            "role": "client",
+            "message": "We have two types of delivery routes: one by bike and one by car. The bike can deliver 12 orders per trip, taking 40 minutes, and the car can deliver 50 orders per trip, taking 30 minutes. We need to deliver at least 850 orders of milk. Also, we aim to make at least 70% of our deliveries by bike to reduce pollution."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful information! Now, I am wondering about the total time you have available for deliveries each day. Could you please tell me how many hours per day you have for delivering the milk?"
+        },
+        {
+            "role": "client",
+            "message": "We operate 8 hours a day for deliveries, which is 480 minutes."
+        },
+        {
+            "role": "agent",
+            "message": "That's very helpful, thank you! Now, I have one more question. How many bikes and cars are available for delivery each day?"
+        },
+        {
+            "role": "client",
+            "message": "I'm sorry, but the information about the number of bikes and cars available for delivery each day is not specified."
+        },
+        {
+            "role": "agent",
+            "message": "No problem at all! Could you please tell me if there's a maximum number of trips each vehicle type (bike or car) can make in a day?"
+        },
+        {
+            "role": "client",
+            "message": "I'm not sure about it, can we skip this detail?"
+        },
+        {
+            "role": "agent",
+            "message": "Absolutely, we can work with the information we have. Let me clarify one last thing. Is there a specific order or preference in which the deliveries should be made? For example, should certain areas receive their orders first or is it just about delivering as many orders as possible within the operating hours?"
+        },
+        {
+            "role": "client",
+            "message": "There's no specific order or preference for the deliveries. It's about delivering as many orders as possible within the operating hours."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit on how many orders a single customer can place, or can a customer place multiple orders in a day?"
+        },
+        {
+            "role": "client",
+            "message": "A customer can place only one order per day."
+        },
+        {
+            "role": "agent",
+            "message": "Alright! Now, could you please tell me if there's a maximum distance or area that your delivery vehicles can cover in a day?"
+        },
+        {
+            "role": "client",
+            "message": "I'm not sure about it, can we skip this detail?"
+        },
+        {
+            "role": "agent",
+            "message": "Sure, we can skip that detail. Now, let's talk about the cost. Is there a difference in cost between delivering by bike and delivering by car?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, delivering by bike is cheaper than by car, but I don't have the exact figures."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Lastly, is there any other factor or constraint that we should consider while optimizing your milk delivery schedule? For example, any traffic considerations, specific times when deliveries cannot be made, etc.?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other factors or constraints to consider for the delivery schedule."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Based on our conversation, here's a summary of the problem:\n\n- The milk delivery can be done through two types of routes: one by bike and one by car.\n- A bike can deliver 12 orders per trip, taking 40 minutes.\n- A car can deliver 50 orders per trip, taking 30 minutes.\n- The total number of orders to be delivered is at least 850.\n- The aim is to make at least 70% of the deliveries by bike to reduce pollution.\n- The total time available for deliveries each day is 480 minutes.\n- A customer can place only one order per day.\n- Delivering by bike is cheaper than delivering by car.\n\nThe goal is to optimize the milk delivery schedule to minimize delivery time and reduce pollution, while delivering as many orders as possible within the operating hours.\n\nDid I capture everything correctly?"
+        },
+        {
+            "role": "client",
+            "message": "You've captured most of the details correctly, but there are a couple of points that need correction. We don't have a limit on the total time available for deliveries each day, and customers can place only one order per day. Also, I didn't mention that delivering by bike is cheaper than by car. We're primarily using bikes to reduce pollution."
+        },
+        {
+            "role": "agent",
+            "message": "I see, thank you for the clarification. In that case, can you please tell me how many bikes and cars you have available for delivery each day?"
+        },
+        {
+            "role": "client",
+            "message": "I'm sorry, but the information about the number of bikes and cars available for delivery each day is not specified."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, let's work with the information we have. Now, to understand your delivery schedule better, could you please tell me if there's a specific time window within which the deliveries must be made? For example, do all deliveries need to be completed by a certain time of the day?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no specific time window for the deliveries. They just need to be completed within our operating hours."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, let's consider the number of trips a vehicle can make in a day. Given that a bike trip takes 40 minutes and a car trip takes 30 minutes, and assuming there are no breaks between trips, a bike can make a maximum of 12 trips in a day (480 minutes / 40 minutes) and a car can make a maximum of 16 trips (480 minutes / 30 minutes). Does that sound reasonable, or is there a limit on the number of trips a vehicle can make in a day?"
+        },
+        {
+            "role": "client",
+            "message": "I'm not sure about it, can we skip this detail?"
+        },
+        {
+            "role": "agent",
+            "message": "Understood, we can skip that detail. Now, is there any other factor or constraint that we should consider while optimizing your milk delivery schedule? For example, any traffic considerations, specific times when deliveries cannot be made, etc.?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other factors or constraints to consider for the delivery schedule."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, based on our conversation, here's a summary of the problem:\n\n- The milk delivery can be done through two types of routes: one by bike and one by car.\n- A bike can deliver 12 orders per trip, taking 40 minutes.\n- A car can deliver 50 orders per trip, taking 30 minutes.\n- The total number of orders to be delivered is at least 850.\n- The aim is to make at least 70% of the deliveries by bike to reduce pollution.\n- Deliveries need to be completed within the operating hours, which is 8 hours or 480 minutes.\n\nThe goal is to optimize the milk delivery schedule to minimize delivery time and reduce pollution, while delivering as many orders as possible within the operating hours.\n\nDid I capture everything correctly?"
+        },
+        {
+            "role": "client",
+            "message": "I'm sorry, but there seems to be a misunderstanding. We don't have a constraint on the operating hours, and our goal is not to deliver as many orders as possible within the operating hours. Our main goal is to minimize the minutes per trip while ensuring that at least 70% of delivery trips are made by bike to reduce pollution. We need to deliver at least 850 orders of milk."
+        },
+        {
+            "role": "agent",
+            "message": "I see, thank you for the clarification. Now, could you please tell me if there's a maximum number of trips a bike or a car can make in a day?"
+        },
+        {
+            "role": "client",
+            "message": "I'm not sure about it, can we skip this detail?"
+        },
+        {
+            "role": "agent",
+            "message": "Alright, we can skip that detail. Now, let's consider the number of orders a vehicle can deliver in a day. Given that a bike can deliver 12 orders per trip and a car can deliver 50 orders per trip, is there a limit on how many orders a bike or a car can deliver in a day?"
+        },
+        {
+            "role": "client",
+            "message": "I'm not sure about it, can we skip this detail?"
+        },
+        {
+            "role": "agent",
+            "message": "Sure, we can skip that detail. Now, is there a specific order in which the deliveries should be made? For example, should certain areas receive their orders first, or is it just about delivering all the orders while minimizing the minutes per trip and ensuring at least 70% of deliveries are made by bike?"
+        },
+        {
+            "role": "client",
+            "message": "There's no specific order for the deliveries. It's about minimizing the minutes per trip and ensuring at least 70% of deliveries are made by bike."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, is there a difference in the time it takes to prepare a bike or a car for a delivery trip? For example, does it take longer to load a bike with orders compared to a car?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no difference in the time it takes to prepare a bike or a car for a delivery trip."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.4765625,
+        "Rouge-1: Recall": 0.6354166666666666,
+        "Rouge-1: F1": 0.5446428571428572,
+        "Rouge-2: Precision": 0.2047244094488189,
+        "Rouge-2: Recall": 0.2736842105263158,
+        "Rouge-2: F1": 0.23423423423423423,
+        "Rouge-L: Precision": 0.3046875,
+        "Rouge-L: Recall": 0.40625,
+        "Rouge-L: F1": 0.3482142857142857,
+        "BERTscore: F1": 0.8923367261886597,
+        "BERTscore: Precision": 0.8739422559738159,
+        "BERTscore: Recall": 0.9115222692489624,
+        "GPT-4: Recall": 3,
+        "GPT-4: Precision": 3,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 4
+    },
+    "total_tokens": 2224,
+    "temperature": 1,
+    "problem_statement": "A milk company is delivering milk to their local families' homes directly either through bikes or by car. A worker on a bike can deliver 12 orders of milk and takes 40 minutes per trip. A worker on a car can deliver 50 orders of milk and takes 30 minutes per trip. The milk company needs to deliver at least 850 orders of milk. Additionally, at least 70% of delivery trips must be by bike to reduce the pollution. How many of each type of delivery trips must be scheduled to minimize the minutes per trip?",
+    "summary": "Alright, based on our conversation, here's a summary of the problem:\n\n- The milk delivery can be done through two types of routes: one by bike and one by car.\n- A bike can deliver 12 orders per trip, taking 40 minutes.\n- A car can deliver 50 orders per trip, taking 30 minutes.\n- The total number of orders to be delivered is at least 850.\n- The aim is to make at least 70% of the deliveries by bike to reduce pollution.\n- Deliveries need to be completed within the operating hours, which is 8 hours or 480 minutes.\n\nThe goal is to optimize the milk delivery schedule to minimize delivery time and reduce pollution, while delivering as many orders as possible within the operating hours.\n\nDid I capture everything correctly?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "-1829385566"
+}

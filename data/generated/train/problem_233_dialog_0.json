@@ -1,0 +1,84 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm looking to maximize viewership for my ads within a $100,000 budget across airports, malls, and movie theaters."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like a great plan! To help you better, I need to understand a few more details. Could you please tell me how much it costs to run an ad in each of these locations: airports, malls, and movie theaters?"
+        },
+        {
+            "role": "client",
+            "message": "The cost for placing an ad is $10,000 at airports, $3,000 at malls, and $2,000 at movie theaters."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful information. Now, could you please tell me the average number of people who see an ad in each of these locations: airports, malls, and movie theaters?"
+        },
+        {
+            "role": "client",
+            "message": "Each ad reaches 100,000 viewers at airports, 40,000 viewers at malls, and 10,000 viewers at movie theaters."
+        },
+        {
+            "role": "agent",
+            "message": "Great, we're making progress. Now, is there a specific number of ads you want to place in each location or are you flexible as long as we stay within the budget?"
+        },
+        {
+            "role": "client",
+            "message": "I'm flexible with the number of ads, but there are some restrictions. The airport authority limits us to 5 ads. Also, at most half the number of ads should be at movie theaters, and at least 30% of ads should be at malls."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. One last thing, is there a minimum number of ads you want to place in total or in each location?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no minimum number of ads to place in total or in each location."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, let's clarify the goal of your ad campaign. Are you trying to reach the maximum number of viewers possible within your budget and the given restrictions?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. I want to reach the maximum number of viewers within my budget and restrictions."
+        },
+        {
+            "role": "agent",
+            "message": "Alright, let's summarize the information you've provided:\n\n- You have a budget of $100,000 for placing ads.\n- The cost for placing an ad is $10,000 at airports, $3,000 at malls, and $2,000 at movie theaters.\n- Each ad reaches 100,000 viewers at airports, 40,000 viewers at malls, and 10,000 viewers at movie theaters.\n- The airport authority limits you to 5 ads.\n- At most half the number of ads should be at movie theaters.\n- At least 30% of ads should be at malls.\n- There's no minimum number of ads to place in total or in each location.\n- Your goal is to reach the maximum number of viewers within your budget and restrictions.\n\nDoes this accurately represent your situation and goals?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. You've summarized my situation and goals accurately."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.5118110236220472,
+        "Rouge-1: Recall": 0.5078125,
+        "Rouge-1: F1": 0.5098039215686274,
+        "Rouge-2: Precision": 0.2698412698412698,
+        "Rouge-2: Recall": 0.2677165354330709,
+        "Rouge-2: F1": 0.26877470355731226,
+        "Rouge-L: Precision": 0.3858267716535433,
+        "Rouge-L: Recall": 0.3828125,
+        "Rouge-L: F1": 0.3843137254901961,
+        "BERTscore: F1": 0.8883152008056641,
+        "BERTscore: Precision": 0.8802309632301331,
+        "BERTscore: Recall": 0.8965492248535156,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 4,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1056,
+    "temperature": 0,
+    "problem_statement": "A company is looking too purchase ads in three locations: airports, malls, and movie theatres. The cost of placing an ad at each location and the expected viewership is given as follows. Each ad placed in an airport costs $10000 and reaches 100000 viewers. Each ad places in a mall costs $3000 and reaches 40000 viewers. Finally each ad places in a movie theatre costs $2000 and reaches 10000 viewers. The airport authority limits the number of ads from a single company to 5. In addition, at most half the number of ads should be at movie theatres, and at least 30% of ads should be at malls. If the company has a budget of $100000, how many ads should they place in each location to maximize viewership.",
+    "summary": "Alright, let's summarize the information you've provided:\n\n- You have a budget of $100,000 for placing ads.\n- The cost for placing an ad is $10,000 at airports, $3,000 at malls, and $2,000 at movie theaters.\n- Each ad reaches 100,000 viewers at airports, 40,000 viewers at malls, and 10,000 viewers at movie theaters.\n- The airport authority limits you to 5 ads.\n- At most half the number of ads should be at movie theaters.\n- At least 30% of ads should be at malls.\n- There's no minimum number of ads to place in total or in each location.\n- Your goal is to reach the maximum number of viewers within your budget and restrictions.\n\nDoes this accurately represent your situation and goals?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "215705279"
+}

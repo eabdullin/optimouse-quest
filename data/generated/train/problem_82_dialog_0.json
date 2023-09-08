@@ -1,0 +1,76 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to minimize the cost of reaching at least 30 million boys and 40 million girls through commercials on cartoons and kids-movies."
+        },
+        {
+            "role": "agent",
+            "message": "That's a great goal! To help you better, I need to understand a bit more about your situation. Could you please tell me the cost of airing a commercial on each type of show - cartoons and kids-movies?"
+        },
+        {
+            "role": "client",
+            "message": "A commercial during a cartoon costs $5000 and a commercial during a kids-movie costs $12000."
+        },
+        {
+            "role": "agent",
+            "message": "I see. Now, could you please tell me how many boys and girls can be reached with a commercial during a cartoon and a kids-movie respectively?"
+        },
+        {
+            "role": "client",
+            "message": "Each cartoon is seen by 2 million boys and 1 million girls. Each kids-movie is seen by 4 million boys and 6 million girls."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit on the number of commercials you can air, or any other restrictions we should know about?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no restrictions on the number of commercials we can air."
+        },
+        {
+            "role": "agent",
+            "message": "Perfect! So, just to clarify, your main goal is to minimize the total cost of reaching at least 30 million boys and 40 million girls through commercials on cartoons and kids-movies, correct?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. We want to minimize the total cost while reaching our target audience."
+        },
+        {
+            "role": "agent",
+            "message": "Alright! Let's summarize the information:\n\n- You want to reach at least 30 million boys and 40 million girls through commercials.\n- A commercial during a cartoon costs $5000 and reaches 2 million boys and 1 million girls.\n- A commercial during a kids-movie costs $12000 and reaches 4 million boys and 6 million girls.\n- There are no restrictions on the number of commercials you can air.\n\nIs there anything else we should consider in this scenario?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's all the information I have. Thank you for your help!"
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.6447368421052632,
+        "Rouge-1: Recall": 0.44545454545454544,
+        "Rouge-1: F1": 0.5268817204301075,
+        "Rouge-2: Precision": 0.37333333333333335,
+        "Rouge-2: Recall": 0.25688073394495414,
+        "Rouge-2: F1": 0.30434782608695654,
+        "Rouge-L: Precision": 0.3815789473684211,
+        "Rouge-L: Recall": 0.2636363636363636,
+        "Rouge-L: F1": 0.3118279569892473,
+        "BERTscore: F1": 0.8864458799362183,
+        "BERTscore: Precision": 0.8853067755699158,
+        "BERTscore: Recall": 0.8875879049301147,
+        "GPT-4: Recall": 4,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 4
+    },
+    "total_tokens": 854,
+    "temperature": 0,
+    "problem_statement": "A toy company makes toys and knows that most of their customers are young boys and girls. To reach these groups, the company has decided to purchase commercial spots on cartoons and kids-movies. Each cartoon is seen by 2 millions young boys and 1 million young girls. Each kids-movie is seen by 4 million young boys and 6 million young girls. The company wants their commercials to be seen by at least 30 million young boys and 40 million young girls. If a commercial during a cartoon costs $5000 and a commercial during a kids-movie costs $12000, how many of each should be purchased to minimize cost?",
+    "summary": "Alright! Let's summarize the information:\n\n- You want to reach at least 30 million boys and 40 million girls through commercials.\n- A commercial during a cartoon costs $5000 and reaches 2 million boys and 1 million girls.\n- A commercial during a kids-movie costs $12000 and reaches 4 million boys and 6 million girls.\n- There are no restrictions on the number of commercials you can air.\n\nIs there anything else we should consider in this scenario?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "-1333121150"
+}

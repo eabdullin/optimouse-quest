@@ -1,0 +1,171 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to maximize my score in a math contest by optimally answering long answer and multiple choice questions."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like a great challenge! To help you out, I'll need to understand a bit more about the contest. Could you please tell me how many points you get for each correct answer in both the long answer and multiple choice sections?"
+        },
+        {
+            "role": "client",
+            "message": "Long answer questions are worth 10 points each and multiple choice questions are worth 2 points each."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful to know. Now, could you please tell me how many questions there are in total for each section - long answer and multiple choice?"
+        },
+        {
+            "role": "client",
+            "message": "There are no specific total numbers, but I can answer at most 15 questions, with a maximum of 11 for either type."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me how much time you have to complete the entire contest? And also, how much time do you usually need to answer a long answer question compared to a multiple choice question?"
+        },
+        {
+            "role": "client",
+            "message": "I have 60 minutes for the entire contest. Typically, a long answer question takes me 4 minutes and a multiple choice question takes 1 minute."
+        },
+        {
+            "role": "agent",
+            "message": "That's very helpful information. Now, could you please tell me if there's a minimum number of questions you have to answer from each section - long answer and multiple choice?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, I need to answer at least 5 long answer questions and 7 multiple choice questions."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me if there's a penalty for incorrect answers in both the long answer and multiple choice sections?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no penalty for incorrect answers in both the long answer and multiple choice sections."
+        },
+        {
+            "role": "agent",
+            "message": "That's good to know. Now, could you please tell me if there's a specific score you're aiming to achieve in this contest?"
+        },
+        {
+            "role": "client",
+            "message": "I'm aiming to achieve the highest score possible in this contest."
+        },
+        {
+            "role": "agent",
+            "message": "That's a great goal! Now, could you please tell me if there's a limit to how many questions you can skip or leave unanswered in the contest?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no limit to how many questions I can skip or leave unanswered in the contest."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me if there's a specific order in which you have to answer the questions - long answer first, then multiple choice, or vice versa? Or can you answer them in any order you like?"
+        },
+        {
+            "role": "client",
+            "message": "I can answer the questions in any order I like."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me if there's a specific strategy you usually follow when answering the questions - like answering the easy ones first, or the ones you're most confident about? Or do you just answer them as they come?"
+        },
+        {
+            "role": "client",
+            "message": "I usually just answer them as they come."
+        },
+        {
+            "role": "agent",
+            "message": "That's good to know. Now, could you please tell me if there's a specific topic or type of question that you're more confident about or that you usually get right?"
+        },
+        {
+            "role": "client",
+            "message": "I'm generally confident about all types of questions in the contest."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me if there's a specific topic or type of question that you usually struggle with or that you usually get wrong?"
+        },
+        {
+            "role": "client",
+            "message": "No, I don't usually struggle with any specific topic or type of question in the contest."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me if there's a specific way you prepare for the contest - like studying certain topics more than others, or practicing certain types of questions more than others?"
+        },
+        {
+            "role": "client",
+            "message": "I usually prepare for the contest by studying all topics equally and practicing all types of questions."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me if there's a specific way you review your answers before submitting them - like checking for errors, or making sure you've answered all the questions?"
+        },
+        {
+            "role": "client",
+            "message": "I usually review my answers by checking for errors and making sure I've answered all the questions."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me if there's a specific way you manage your time during the contest - like setting aside a certain amount of time for each section, or for reviewing your answers?"
+        },
+        {
+            "role": "client",
+            "message": "I usually try to manage my time by setting aside a certain amount of time for each section."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me if there's a specific way you prioritize the questions - like answering the ones worth more points first, or the ones that take less time?"
+        },
+        {
+            "role": "client",
+            "message": "I usually prioritize the questions that are worth more points first."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me if there's a specific way you decide which questions to skip or leave unanswered - like the ones you're least confident about, or the ones that take more time?"
+        },
+        {
+            "role": "client",
+            "message": "I usually decide to skip or leave unanswered the questions that take more time."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me if there's a specific way you decide which questions to answer first - like the ones you're most confident about, or the ones that are worth more points?"
+        },
+        {
+            "role": "client",
+            "message": "I usually decide to answer the questions that are worth more points first."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me if there's a specific way you decide which questions to answer last - like the ones you're least confident about, or the ones that are worth fewer points?"
+        },
+        {
+            "role": "client",
+            "message": "I usually decide to answer the questions that are worth fewer points last."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me if there's a specific way you decide which questions to guess on - like the ones you're least confident about, or the ones that are worth fewer points?"
+        },
+        {
+            "role": "client",
+            "message": "I usually decide to guess on the questions that I'm least confident about."
+        }
+    ],
+    "validation": null,
+    "total_tokens": 1676,
+    "temperature": 0,
+    "problem_statement": "You have participated in a math contest. There are two types of problems to solve: long answer questions and multiple choice questions. Long answer questions are worth 10 points and multiple choice questions are worth 2 points. In total, you have enough time to answer at most 15 questions. You need to answer at least 5 long answer questions and 7 multiple choice questions, but time restricts answering more than 11 of either type. How many of each type of questions do you need to answer to maximize your score? What is your maximum score? Assume all of your answers are correct.",
+    "summary": null,
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "764032993"
+}

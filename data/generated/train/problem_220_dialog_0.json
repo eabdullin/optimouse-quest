@@ -1,0 +1,100 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I'm trying to minimize my company's weekly wage bill while meeting certain staffing requirements for our engineering projects."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like a smart move! To help you better, could you please tell me how many different types of roles or positions are there in your engineering team?"
+        },
+        {
+            "role": "client",
+            "message": "We have two types of roles in our engineering team: new grad engineers and senior engineers."
+        },
+        {
+            "role": "agent",
+            "message": "That's great! Now, could you please tell me how much you pay each new grad engineer and each senior engineer per week?"
+        },
+        {
+            "role": "client",
+            "message": "Each new grad engineer earns $1000 per week, and each senior engineer earns $3000 per week."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, could you please tell me the minimum number of new grad engineers and senior engineers you need to have on your team each week to meet your project requirements?"
+        },
+        {
+            "role": "client",
+            "message": "We need a minimum of 50 engineers in total, with at least 10 of them being senior engineers."
+        },
+        {
+            "role": "agent",
+            "message": "Is there a maximum number of engineers (both new grad and senior) that you can hire each week, or is the only limit the total wage bill?"
+        },
+        {
+            "role": "client",
+            "message": "The only limit is the total wage bill, which must be kept below $100,000 per week."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, could you please tell me what your main goal is? Are you trying to maximize the number of engineers you can hire with your budget, or do you have a different objective?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, the main goal is to minimize the wage bill while meeting the project requirements."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Just to clarify, are there any other constraints or requirements that we need to consider? For example, are there any rules about the ratio of new grad engineers to senior engineers, or any other staffing policies we should know about?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, the number of senior engineers should be at least a third the number of new grad engineers."
+        },
+        {
+            "role": "agent",
+            "message": "Are there any other factors that we need to consider? For example, are there any additional costs associated with hiring new engineers, or any benefits that come with having more senior engineers on the team?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no additional costs or benefits to consider. The main focus is on minimizing the wage bill."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Let's summarize the information:\n\n- Your company has two types of roles in the engineering team: new grad engineers and senior engineers.\n- Each new grad engineer earns $1000 per week, and each senior engineer earns $3000 per week.\n- You need a minimum of 50 engineers in total, with at least 10 of them being senior engineers.\n- The number of senior engineers should be at least a third the number of new grad engineers.\n- The total wage bill must be kept below $100,000 per week.\n- The main goal is to minimize the wage bill while meeting the project requirements.\n\nHave I captured everything correctly?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, you've captured everything correctly. Thank you for your help!"
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.5238095238095238,
+        "Rouge-1: Recall": 0.7746478873239436,
+        "Rouge-1: F1": 0.625,
+        "Rouge-2: Precision": 0.38461538461538464,
+        "Rouge-2: Recall": 0.5714285714285714,
+        "Rouge-2: F1": 0.4597701149425288,
+        "Rouge-L: Precision": 0.4095238095238095,
+        "Rouge-L: Recall": 0.6056338028169014,
+        "Rouge-L: F1": 0.4886363636363636,
+        "BERTscore: F1": 0.9105886220932007,
+        "BERTscore: Precision": 0.8897121548652649,
+        "BERTscore: Recall": 0.9324683547019958,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 4
+    },
+    "total_tokens": 1017,
+    "temperature": 0,
+    "problem_statement": "An engineering company has new grad engineers earning $1000 a week and senior engineers earning $3000 a week. The weekly wage bill must be kept below $100000. The projects require a minimum of 50 engineers of whom at least 10 must be senior engineers. In addition, the number of senior engineers should be at least a third the number of new grad engineers. Formulate a LP to minimize the wage bill.",
+    "summary": "Great! Let's summarize the information:\n\n- Your company has two types of roles in the engineering team: new grad engineers and senior engineers.\n- Each new grad engineer earns $1000 per week, and each senior engineer earns $3000 per week.\n- You need a minimum of 50 engineers in total, with at least 10 of them being senior engineers.\n- The number of senior engineers should be at least a third the number of new grad engineers.\n- The total wage bill must be kept below $100,000 per week.\n- The main goal is to minimize the wage bill while meeting the project requirements.\n\nHave I captured everything correctly?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "-1550725342"
+}

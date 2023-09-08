@@ -1,0 +1,140 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your friendly helper. I'm here to assist you in making the best decision for your situation. Could you please tell me what you're trying to achieve or improve?"
+        },
+        {
+            "role": "client",
+            "message": "I'm trying to maximize my movie theatre's profit by selling the optimal number of moving and regular seat tickets."
+        },
+        {
+            "role": "agent",
+            "message": "That sounds like a great goal! To help you out, I'll need to understand a bit more about your situation. Could you please tell me how much profit you make from selling a ticket for a moving seat and a regular seat?"
+        },
+        {
+            "role": "client",
+            "message": "For each moving seat ticket, I make a profit of $15, and for each regular seat ticket, I make a profit of $10."
+        },
+        {
+            "role": "agent",
+            "message": "That's helpful information. Now, could you please tell me the total number of seats available in your theatre, both moving and regular?"
+        },
+        {
+            "role": "client",
+            "message": "My theatre can seat a maximum of 100 people."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, are there any restrictions on the number of moving seats and regular seats you can have in your theatre? For example, is there a minimum or maximum number of each type of seat that you need to have?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, there are. I reserve at least 15 seats for moving seats. Also, at least 3 times as many people prefer regular seats than moving seats."
+        },
+        {
+            "role": "agent",
+            "message": "That's very helpful. Now, is there a maximum limit to the number of moving seats you can have in your theatre?"
+        },
+        {
+            "role": "client",
+            "message": "No, there's no maximum limit for moving seats, as long as the total doesn't exceed 100 seats."
+        },
+        {
+            "role": "agent",
+            "message": "Thank you for the information. Just to clarify, when you say \"at least 3 times as many people prefer regular seats than moving seats\", do you mean that for every moving seat sold, you must sell at least three regular seats?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that's correct. For every moving seat sold, I must sell at least three regular seats."
+        },
+        {
+            "role": "agent",
+            "message": "Great, thanks for confirming. One last thing, is there a certain profit goal you're aiming to achieve, or is your objective simply to maximize your total profit?"
+        },
+        {
+            "role": "client",
+            "message": "My objective is to maximize my total profit."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, is there a limit to the number of tickets you can sell for each show, or can you sell as many as you want as long as you don't exceed the total capacity of 100 seats?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, I can sell as many tickets as I want, as long as I don't exceed the total capacity of 100 seats."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, is there a limit to the number of shows you can have in a day, or can you have as many shows as you want as long as you don't exceed the total capacity of 100 seats per show?"
+        },
+        {
+            "role": "client",
+            "message": "I can have as many shows as I want, as long as I don't exceed the total capacity of 100 seats per show."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Now, is there a limit to the number of tickets you can sell in a day, or can you sell as many as you want as long as you don't exceed the total capacity of 100 seats per show?"
+        },
+        {
+            "role": "client",
+            "message": "I can sell as many tickets as I want in a day, as long as I don't exceed the total capacity of 100 seats per show."
+        },
+        {
+            "role": "agent",
+            "message": "That's clear. Now, is there a limit to the number of tickets you can sell in a day, or can you sell as many as you want as long as you don't exceed the total capacity of 100 seats per show?"
+        },
+        {
+            "role": "client",
+            "message": "I can sell as many tickets as I want in a day, as long as I don't exceed the total capacity of 100 seats per show."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, let's summarize the information:\n\n- Your theatre has a total capacity of 100 seats per show.\n- You can sell as many tickets as you want in a day, as long as you don't exceed the total capacity of 100 seats per show.\n- For each moving seat ticket sold, you make a profit of $15.\n- For each regular seat ticket sold, you make a profit of $10.\n- You reserve at least 15 seats for moving seats.\n- For every moving seat sold, you must sell at least three regular seats.\n\nIs there anything else that I should know about your situation, or does this cover everything?"
+        },
+        {
+            "role": "client",
+            "message": "That's a good summary, but we also need to remember that our main goal is to maximize the profit from ticket sales."
+        },
+        {
+            "role": "agent",
+            "message": "Understood. Now, is there a limit to the number of shows you can have in a day, or can you have as many shows as you want as long as you don't exceed the total capacity of 100 seats per show?"
+        },
+        {
+            "role": "client",
+            "message": "I can have as many shows as I want, as long as I don't exceed the total capacity of 100 seats per show."
+        },
+        {
+            "role": "agent",
+            "message": "Great! Now, let's summarize the information:\n\n- Your theatre has a total capacity of 100 seats per show.\n- You can sell as many tickets as you want in a day, as long as you don't exceed the total capacity of 100 seats per show.\n- For each moving seat ticket sold, you make a profit of $15.\n- For each regular seat ticket sold, you make a profit of $10.\n- You reserve at least 15 seats for moving seats.\n- For every moving seat sold, you must sell at least three regular seats.\n- Your main goal is to maximize the profit from ticket sales.\n\nIs there anything else that I should know about your situation, or does this cover everything?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, that covers everything. Thank you for your help in understanding my situation. I look forward to hearing your suggestions on how to maximize my profit."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.3983050847457627,
+        "Rouge-1: Recall": 0.573170731707317,
+        "Rouge-1: F1": 0.47000000000000003,
+        "Rouge-2: Precision": 0.18803418803418803,
+        "Rouge-2: Recall": 0.2716049382716049,
+        "Rouge-2: F1": 0.2222222222222222,
+        "Rouge-L: Precision": 0.23728813559322035,
+        "Rouge-L: Recall": 0.34146341463414637,
+        "Rouge-L: F1": 0.28,
+        "BERTscore: F1": 0.8688369393348694,
+        "BERTscore: Precision": 0.8530474305152893,
+        "BERTscore: Recall": 0.8852219581604004,
+        "GPT-4: Recall": 5,
+        "GPT-4: Precision": 4,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 1590,
+    "temperature": 0,
+    "problem_statement": "A movie theatre can seat at most 100 people. A profit of $15 is made on each moving seat ticket and a profit of $10 is made on each regular seat ticket. The theatre reserves at least 15 seats to be moving seats. However, because many people find them nauseating, at least 3 times as many people prefer sitting in regular seats than in moving seats. How many tickets for each type of seat must be sold in order to maximize profit?",
+    "summary": "Great! Now, let's summarize the information:\n\n- Your theatre has a total capacity of 100 seats per show.\n- You can sell as many tickets as you want in a day, as long as you don't exceed the total capacity of 100 seats per show.\n- For each moving seat ticket sold, you make a profit of $15.\n- For each regular seat ticket sold, you make a profit of $10.\n- You reserve at least 15 seats for moving seats.\n- For every moving seat sold, you must sell at least three regular seats.\n- Your main goal is to maximize the profit from ticket sales.\n\nIs there anything else that I should know about your situation, or does this cover everything?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "2134273494"
+}

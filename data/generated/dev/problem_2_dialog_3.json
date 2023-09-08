@@ -1,0 +1,68 @@
+{
+    "dialog_messages": [
+        {
+            "role": "agent",
+            "message": "Hello there! I'm OptiMouse, your personal helper for managing and navigating decisions. May I know what situation or scenario you are currently facing that you'd like to optimize or find the best solution for?"
+        },
+        {
+            "role": "client",
+            "message": "Hello! I own a bakery and I'm trying to maximize my profit by optimizing the production of chocolate and vanilla cakes."
+        },
+        {
+            "role": "agent",
+            "message": "That's sounds like a delicious plan! To help you better, can you tell me how much profit you make by selling a chocolate cake and a vanilla cake?"
+        },
+        {
+            "role": "client",
+            "message": "I make a profit of $10 on each chocolate cake and $11 on each vanilla cake."
+        },
+        {
+            "role": "agent",
+            "message": "That's very helpful. Now, can you tell me if there are any limitations on the number of chocolate and vanilla cakes you can bake each day? Perhaps due to your oven capacity or manpower limitations?"
+        },
+        {
+            "role": "client",
+            "message": "Yes, there are limitations. I can make a maximum of 50 cakes of either type per day due to staffing constraints. The daily demand is at most 50 chocolate cakes and 30 vanilla cakes."
+        },
+        {
+            "role": "agent",
+            "message": "That's a crucial detail, thank you. In order to understand completely, could you confirm if there are any restrictions on the ingredients or baking time for chocolate and vanilla cakes, that might limit the amount you can produce each day?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no restrictions on ingredients or baking time for either type of cake."
+        },
+        {
+            "role": "agent",
+            "message": "Great. Here's what we have so far:\n\n- You run a bakery which produces chocolate and vanilla cakes.\n- You make a profit of $10 on each chocolate cake sold and $11 on each vanilla cake sold.\n- You can make a maximum of 50 cakes a day due to staffing limitations.\n- The daily demand for your cakes is at most 50 for chocolate cakes and 30 for vanilla cakes.\n\nJust to clarify, do you have any other requirements or preferences, like needing to make a certain number of cakes to fill prepaid orders or preferring to make more of one type of cake than the other?"
+        },
+        {
+            "role": "client",
+            "message": "No, there are no other requirements or preferences. I just want to maximize my profit given the constraints we've discussed."
+        }
+    ],
+    "validation": {
+        "Rouge-1: Precision": 0.5428571428571428,
+        "Rouge-1: Recall": 0.5588235294117647,
+        "Rouge-1: F1": 0.5507246376811593,
+        "Rouge-2: Precision": 0.23076923076923078,
+        "Rouge-2: Recall": 0.2376237623762376,
+        "Rouge-2: F1": 0.23414634146341465,
+        "Rouge-L: Precision": 0.38095238095238093,
+        "Rouge-L: Recall": 0.39215686274509803,
+        "Rouge-L: F1": 0.38647342995169087,
+        "BERTscore: F1": 0.879197895526886,
+        "BERTscore: Precision": 0.8734495639801025,
+        "BERTscore: Recall": 0.8850224018096924,
+        "GPT-4: Recall": 4,
+        "GPT-4: Precision": 5,
+        "GPT-4: Repetition": 5,
+        "GPT-4: Readability": 5
+    },
+    "total_tokens": 829,
+    "temperature": 1,
+    "problem_statement": "A bakery sells two types of cakes. They sell a chocolate cake and a vanilla cake. Let's say they make x1 chocolate cakes, at a profit of $10 each, and x2 vanilla cakes, at a profit of $11 each (x1 and x2 are unknowns both greater than or equal to 0). The daily demand for these cakes is at most 50 chocolate cakes and at most 30 vanilla cakes. The bakery is short staffed and can make a maximum of 50 cakes of either type per day. How much of each cake should the bakery make in order to maximize profit?",
+    "summary": "Great. Here's what we have so far:\n\n- You run a bakery which produces chocolate and vanilla cakes.\n- You make a profit of $10 on each chocolate cake sold and $11 on each vanilla cake sold.\n- You can make a maximum of 50 cakes a day due to staffing limitations.\n- The daily demand for your cakes is at most 50 for chocolate cakes and 30 for vanilla cakes.\n\nJust to clarify, do you have any other requirements or preferences, like needing to make a certain number of cakes to fill prepaid orders or preferring to make more of one type of cake than the other?",
+    "prompts_id": "9dea4d23878d8bb86ca82656fc0df2ad",
+    "original_id": "793774916"
+}
