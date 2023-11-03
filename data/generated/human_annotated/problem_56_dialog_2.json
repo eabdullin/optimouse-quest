@@ -89,7 +89,25 @@
         "GPT-4: Recall": 4,
         "GPT-4: Precision": 5,
         "GPT-4: Repetition": 5,
-        "GPT-4: Readability": 5
+        "GPT-4: Readability": 5,
+        "Human Eval": {
+            "Human 0: Recall": 5.0,
+            "Human 0: Precision": 5.0,
+            "Human 0: Repetition": 5.0,
+            "Human 0: Readability": 5.0,
+            "Human 1: Recall": 5.0,
+            "Human 1: Precision": 5.0,
+            "Human 1: Repetition": 5.0,
+            "Human 1: Readability": 5.0,
+            "Human 2: Recall": 5.0,
+            "Human 2: Precision": 5.0,
+            "Human 2: Repetition": 5.0,
+            "Human 2: Readability": 5.0,
+            "Human 3: Recall": 5.0,
+            "Human 3: Precision": 5.0,
+            "Human 3: Repetition": 5.0,
+            "Human 3: Readability": 5.0
+        }
     },
     "total_tokens": 1216,
     "temperature": 1,
