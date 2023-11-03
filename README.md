@@ -1,4 +1,4 @@
-# OptimouseQuest: Synthetic Dataset for Goal-Oriented Question Generation in Optшmization Dialogs
+# OptimouseQuest: Synthetic Dataset for Goal-Oriented Question Generation in Optimization Dialogs
 ## Abstract
 Linear programming (LP) problems are ubiquitous in various real-world scenarios. OptimouseQuest aims to facilitate the development of conversational agents that assist users in formulating linear models for these problems. Using prompt engineering, two agents are developed: one simulates a conversational agent and the other, a user. The agents engage in dialogues based on text descriptions of linear problems from NLP4Opt, generating sample conversations that can serve as a baseline for future work.
 
