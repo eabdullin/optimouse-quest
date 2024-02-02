@@ -1,6 +1,8 @@
-# OptimouseQuest: Synthetic Dataset for Goal-Oriented Question Generation in Optimization Dialogs
+# OptimouseQuest
+The dataset from the paper "Synthetic Dialogue Dataset Generation using LLM Agents" by Abdullin et al.
+
 ## Abstract
-Linear programming (LP) problems are ubiquitous in various real-world scenarios. OptimouseQuest aims to facilitate the development of conversational agents that assist users in formulating linear models for these problems. Using prompt engineering, two agents are developed: one simulates a conversational agent and the other, a user. The agents engage in dialogues based on text descriptions of linear problems from NLP4Opt, generating sample conversations that can serve as a baseline for future work.
+Linear programming (LP) problems are ubiquitous in various real-world scenarios. OptimouseQuest aims to facilitate the development of conversational agents that assist users in formulating linear models for these problems. Using prompt engineering, two agents are developed: one simulates a conversational agent and the other a user. The agents engage in dialogues based on text descriptions of linear problems from NLP4Opt, generating sample conversations that can serve as a baseline for future work.
 
 ## Dataset Structure
 Human Annotated folder - the dialogues from the DEV subset of NLP4Opt with human evaluation(28 dialogues).   
@@ -32,7 +34,18 @@ Clone the repository:
 git clone https://github.com/eabdullin/optimouse-quest.git
 ```
 Navigate to the data directory:
-
+## Citation
+```
+@misc{abdullin2023synthetic,
+  title={Synthetic Dialogue Dataset Generation using LLM Agents},
+  author={Yelaman Abdullin, Diego Molla-Aliod, Bahadorreza Ofoghi, John Yearwood, Qingyang Li},
+  year={2023},
+  eprint={2401.17461},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2401.17461}
+}
+```
 ## Contributing
 If you find any errors or have suggestions, please open an issue or submit a pull request.
 
